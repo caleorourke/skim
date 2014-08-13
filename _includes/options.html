@@ -1,0 +1,28 @@
+<!-- Bootstraps -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Analytics Option -->
+{% if site.analytics.enabled == "Y" %}
+    {% include options/analytics.html %}
+{% endif %}
+
+<!-- Blur Option -->
+{% if site.blur.enabled == "Y" %}
+    {% include options/blur.html %}
+{% endif %}
+
+<!-- Easing Option -->
+{% if site.easing.enabled == "Y" %}
+    {% include options/easing.html %}
+{% endif %}
+
+<!-- Index Option -->
+{% if site.indexing.enabled == "Y" %}
+    {% include options/indexing.html %}
+{% endif %}
+
+<!-- Version Option -->
+{% if site.version.enabled == "Y" %}
+    {% include options/version.html %}
+{% endif %}
+

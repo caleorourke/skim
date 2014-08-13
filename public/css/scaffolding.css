@@ -1,0 +1,303 @@
+/*
+ * Scaffolding
+ *
+ * Copyright © SoftLayer, an IBM Company.
+ * Code and documentation licensed under MIT.
+ *
+ */
+
+/* Table of Contents
+ *
+ * 1. Normalize
+ * 2. Base
+ * 3. Headers
+ * 4. Utilities  */
+
+
+/* =========================
+   Normalize
+   ========================= */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+
+body {
+    cursor: auto;
+    font-style: normal;
+    margin: 0;
+    text-shadow: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #cfc;
+    color: #333334;
+}
+
+sup {
+    top: -.5em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+sub,
+sup {
+    font-size: 70%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+hr {
+    border-width: 0;
+    box-sizing: content-box;
+    height: 0;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: default;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+em {
+    font-style: italic;
+}
+
+ul,
+ol {
+    line-height: inherit;
+}
+
+pre,
+textarea {
+    overflow: auto;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+img {
+    border: 0;
+}
+
+small {
+    font-size: 80%;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+/* =========================
+   Base
+   ========================= */
+
+body {
+    background: #fff;
+    color: #333334;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+p {
+    margin: 0 0 16px;
+}
+
+u {
+    background-image: linear-gradient(to right,#333334 40%,rgba(255,255,255,0) 20%);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2px 1px;
+    text-decoration: none;
+}
+
+hr {
+    margin: 36px auto 48px;
+    border-top: 1px solid #ddddde;
+    clear: both;
+    width: 168px;
+}
+
+a {
+    background-image: linear-gradient(to right,#333334 40%,rgba(255,255,255,0) 20%);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2px 1px;
+    color: #333334;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #555556;
+}
+
+ul,
+ol {
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol,
+ul li > p,
+ol li > p {
+    margin-bottom: 0;
+}
+
+q {
+    font-style: italic;
+    color: #555556;
+}
+
+/* =========================
+   Headers
+   ========================= */
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+}
+
+
+h1 {
+    margin: 0 0 6px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 32px 0 6px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 27px 0 6px;
+    letter-spacing: -.01em;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 21px 0 6px;
+    letter-spacing: -.01em;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* =========================
+   Utilities
+   ========================= */
+
+.lead {
+    margin-bottom: 24px;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #888889;
+}
+
+.hidden { display: none !important; visibility: hidden !important; }
+.visible { display: initial !important; visibility: visible !important; }
+
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.relative { position: relative; }
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+.pull-right { float: right !important; }
+.pull-left { float: left !important; }
+.pull-center { display: block; margin-left: auto; margin-right: auto; }
