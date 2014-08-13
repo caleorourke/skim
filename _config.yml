@@ -6,9 +6,9 @@
 # * Released under the MIT license
 #
 
-# Spaces only, no tabs.
-# Wrap words in quotes wherever commas are used.
-# For options, use Y or N. Anything else will disable the option.
+# 1. Spaces only, no tabs.
+# 2. Wrap words in quotes wherever commas are used.
+# 3. For options, use Y or N. Anything else will disable the option.
 
 
 # ==============================
@@ -16,9 +16,9 @@
 # ==============================
 
 github:
-    title:      Ferris
-    tagline:    A one-page boilerplate for publishing content on GitHub
-    owner:      "SoftLayer, an IBM Company"
+    title:      Name of Your Website
+    tagline:    Something Catchy to Describe your Website
+    owner:      Name of Whoever Owns This
     license:    MIT
 
 # ==============================
@@ -26,10 +26,10 @@ github:
 # ==============================
 
 twitter:
-    handle:     SoftLayerLabs
-    hashtags:   "css,boilerplate,github-pages"
-    text:       "Try Ferris, a one-page boilerplate for publishing content on GitHub."
-keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github pages,html5,IBM,jekyll,jquery,liquid,markdown,michael o'rourke,normalize,one-page,pygments,python,redcarpet,ruby,softlayer,softlayerlabs,technical content"
+    handle:     Your Twitter Name
+    hashtags:   "separate,hashtags,with,commas"
+    text:       "Check out our brand new website."
+keywords:       "separate,keywords,with,commas"
 
 # ==============================
 # Options
@@ -44,14 +44,14 @@ easing:
 indexing:
     enabled:    Y
 version:
-    enabled:    Y
+    enabled:    N
 
 # ==============================
 # Google Analytics
 # ==============================
 
 google:
-    id:         UA-40037365-5
+    id:         UA-X
 
 # ==============================
 # Markdown
