@@ -1,12 +1,7 @@
-# Folders
 _site
-
-# Files
 .DS_Store
 Thumbs.db
 Desktop.ini
-
-# File extensions
 *~
 *.lock
 *.log
