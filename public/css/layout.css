@@ -21,7 +21,7 @@
    ========================= */
 
 nav > ul > li {
-    line-height: 1.6;
+    line-height: 1.8;
     font-size: 16px;
     list-style: none;
 }
@@ -54,11 +54,11 @@ nav > ul > li a:focus {
 
 .modal > div {
     position: relative;
-    margin: 10% auto;
+    margin: 9% auto;
     padding: 42px 48px 24px;
     width: 350px;
     border-radius: 5px;
-    border-bottom-width: 2px solid #ddddde;
+    border-bottom: 3px solid #ddddde;
     background: #fff;
 }
 
@@ -108,7 +108,7 @@ nav > ul > li a:focus {
 }
 
 .close:hover {
-    background: #428bca;
+    background: #555556;
     color: #fff;
 }
 
