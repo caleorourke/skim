@@ -21,11 +21,9 @@
    ========================= */
 
 nav > ul > li {
+    line-height: 1.6;
     font-size: 16px;
-}
-
-nav > ul > li > a {
-    background-image: none;
+    list-style: none;
 }
 
 nav > ul > li a:active,
