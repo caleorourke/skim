@@ -2,8 +2,8 @@
 # The humans responsible & technology colophon
 
 /* TEAM */
-SoftLayer Labs: @caleorourke
-Location: Dallas, TX, USA
+Your Company Name: Your Name (@twittername), Team Members Name (@twittername), rinse and repeat
+Location: Your City, State, Country
 
 /* SITE */
 Standards: CSS3, HTML5, Python, Ruby
