@@ -1,4 +1,4 @@
-+[![Build Status](https://travis-ci.org/caleorourke/ferris.svg?branch=master)](https://travis-ci.org/caleorourke/ferris)
+[![Build Status](https://travis-ci.org/caleorourke/ferris.svg?branch=master)](https://travis-ci.org/caleorourke/ferris)
 
 # Ferris
 
