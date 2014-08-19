@@ -14,7 +14,7 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 
 # Features and Delighters
 
-<span class="lead">{{site.github.title}} is chock-full of nifty thing-a-ma-jiggers.</span>
+<span class="lead">{{site.github.title}} is chock-full of nifty doodads.</span>
 
 ## Features
 
@@ -28,7 +28,7 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 * [Easing](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/easing.html) for setting offset thresholds while scrolling
 * [Indexing](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/indexing.html) to build table of contents on-the-fly
 * [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
-* [Blur](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/blur.html) to visually distort images after scrolling past them
+* [Blur](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/blur.html) to visually distort images after scrolling passed them
 
 ## Core Environment
 
