@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/caleorourke/ferris.svg?branch=master)](https://travis-ci.org/caleorourke/ferris)
+<a href="https://travis-ci.org/caleorourke/ferris" target="_blank"><img src="https://travis-ci.org/caleorourke/ferris.svg?branch=master"></a>
 
 # Ferris
 
-Ferris is a one-page boilerplate for publishing content on GitHub. It's designed specifically for hosting on GitHub using [GitHub Pages](http://pages.github.com) and serving up locally using [Jekyll](http://jekyllrb.com). Take a peek at the demo below and see how simple it is to roll your own site without having to use fancy code. 
+Ferris is a one-page boilerplate for publishing content on GitHub. It's designed specifically for hosting on GitHub using [GitHub Pages](http://pages.github.com) and serving up locally using [Jekyll](http://jekyllrb.com). Take a peek at the demo below and see how simple it is to roll your own site without having to use fancy code.
 
 <a href="http://caleorourke.github.io/ferris" target="_blank">Ferris on GitHub</a>
 
@@ -15,7 +15,7 @@ Ferris is a one-page boilerplate for publishing content on GitHub. It's designed
         $ python --version
 
 
-2. Clone from GitHub and go into the directory (~3 seconds). The directory size hovers around ~76 KB. 
+2. Clone from GitHub and go into the directory (~3 seconds). The directory size hovers around ~76 KB.
 
         $ git clone -o master https://github.com/caleorourke/ferris.git
         $ cd ferris
@@ -23,7 +23,7 @@ Ferris is a one-page boilerplate for publishing content on GitHub. It's designed
 
 3. Install Bundler (~5 seconds).
 
-        $ [sudo] gem install bundler
+        $ gem install bundler
 
 
 4. Install runtime dependencies (~15 seconds).
@@ -141,7 +141,7 @@ exclude:        [".gitignore",
 
 ## Contributing
 
-Anyone is welcome to submit an issue or request. All we ask is that you glance through our [contributing guidelines](CONTRIBUTING.md) first. 
+Anyone is welcome to submit an issue or request. All we ask is that you glance through our [contributing guidelines](CONTRIBUTING.md) first.
 
 
 ## License
