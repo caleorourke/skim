@@ -66,7 +66,7 @@ a:focus {
 }
 
 mark {
-    background-color: #cfc;
+    background-color: #ccffcc;
     color: #333334;
 }
 
@@ -173,7 +173,7 @@ template {
    ========================= */
 
 body {
-    background: #fff;
+    background: #ffffff;
     color: #333334;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -287,17 +287,43 @@ h4 {
     color: #888889;
 }
 
-.hidden { display: none !important; visibility: hidden !important; }
-.visible { display: initial !important; visibility: visible !important; }
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.visible {
+    display: initial !important;
+    visibility: visible !important;
+}
 
-.absolute { position: absolute; }
-.fixed { position: fixed; }
-.relative { position: relative; }
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+.relative {
+    position: relative;
+}
 
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-.text-center { text-align: center; }
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
 
-.pull-right { float: right !important; }
-.pull-left { float: left !important; }
-.pull-center { display: block; margin-left: auto; margin-right: auto; }
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.pull-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
