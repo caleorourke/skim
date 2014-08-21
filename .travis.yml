@@ -1,5 +1,8 @@
 language: ruby
+
 rvm:
+    - 1.9.3
+    - 2.0
     - 2.1
 
 before_install:
@@ -9,12 +12,12 @@ install:
     - bundle install
 
 script:
-    - bundle exec jekyll build --drafts
-    - bundle exec htmlproof ./_site
+    - bundle exec jekyll build
 
 notifications:
     email: false
 
 branches:
     only:
+        - master
         - gh-pages
