@@ -1,4 +1,5 @@
 <a href="https://travis-ci.org/caleorourke/ferris" target="_blank"><img src="https://travis-ci.org/caleorourke/ferris.svg?branch=master"></a>
+<a href="http://github.com/caleorourke/ferris/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
 
 # Ferris
 
