@@ -1,8 +1,3 @@
-<a href="https://travis-ci.org/caleorourke/ferris" target="_blank"><img src="https://travis-ci.org/caleorourke/ferris.svg?branch=master"></a>
-<a href="http://github.com/caleorourke/ferris/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
-
----
-
 # Ferris
 
 Ferris is a one-page boilerplate for publishing content on GitHub. It's designed specifically for hosting on GitHub using [GitHub Pages](http://pages.github.com) and serving up locally using [Jekyll](http://jekyllrb.com). Take a peek at the demo below and see how simple it is to roll your own site without having to use fancy code.
