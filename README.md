@@ -7,24 +7,18 @@ Ferris is a one-page boilerplate for publishing content on GitHub. It's designed
 
 ## Quick Install
 
-1. Verify Ruby and Python are installed.
-
-        $ ruby -v
-        $ python --version
-
-
-2. Clone from GitHub and go into the directory (~3 seconds). The directory size hovers around ~76 KB.
+1. Clone from GitHub and go into the directory (~3 seconds). Directory size hovers around ~76 KB.
 
         $ git clone -o master https://github.com/caleorourke/ferris.git
         $ cd ferris
 
 
-3. Install Bundler (~5 seconds).
+2. Install Bundler (~5 seconds).
 
         $ gem install bundler
 
 
-4. Install runtime dependencies (~15 seconds).
+3. Install runtime dependencies (~15 seconds).
 
         $ bundle install
 
