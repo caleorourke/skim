@@ -37,11 +37,9 @@ keywords:       "separate,keywords,with,commas"
 
 analytics:
     enabled:    N
-blur:
-    enabled:    N
-easing:
+index:
     enabled:    Y
-indexing:
+smooth:
     enabled:    Y
 version:
     enabled:    N
@@ -77,5 +75,4 @@ redcarpet:
 
 permalink:      pretty
 exclude:        [".gitignore",
-                 "CONTRIBUTING.md",
                  "Gemfile"]
