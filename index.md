@@ -24,11 +24,10 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 * [Google Analytics](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/analytics.html)
 * WDM gem for supporting modern Windows OSes
 * Pretty URLs
-* [Versioning](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/version.html) to fetch the most recent release peg from GitHub
-* [Easing](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/easing.html) for setting offset thresholds while scrolling
-* [Indexing](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/indexing.html) to build table of contents on-the-fly
+* [Version](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/version.html) to fetch the most recent release peg from GitHub
+* [Smooth](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/smooth.html) for setting offset thresholds while scrolling
+* [Index](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/index.html) to build table of contents on-the-fly
 * [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
-* [Blur](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/blur.html) to visually distort images after scrolling passed them
 
 ## Core Environment
 
@@ -85,13 +84,13 @@ As for legacy browsers, support is limited to whatever the browser can handle. Y
 
 {{site.github.title}} requires the minimum version of **Ruby** below. It also requires **Python** to run **Pygments**, but only if you’re planning to use code highlights. Otherwise, you won't need it.
 
-* Ruby 2.0.0
+* Ruby 1.9.3
 * Python 2.7
 * Pygments 1.6
 
 ## Ruby
 
-{{site.github.title}} requires **Ruby 2.0.0** at minimum. To download and install Ruby, click the button below.
+{{site.github.title}} requires **Ruby 1.9.3** at minimum. To download and install Ruby, click the button below.
 
 <a class="button solid-green" href="http://www.ruby-lang.org/en/installation" target="_blank">Download</a>
 
@@ -230,7 +229,7 @@ keywords:       "boilerplate,css,feo,framework,github,github pages,html5,IBM,jek
 ## Options
 
 1. Scroll down to the third group called `Options`.
-2. Type <kbd>Y</kbd> to enable or <kbd>N</kbd> to disabled any of the five options.
+2. Type <kbd>Y</kbd> to enable or <kbd>N</kbd> to disabled any of the options.
 
 ~~~yaml
 # ==============================
@@ -238,15 +237,13 @@ keywords:       "boilerplate,css,feo,framework,github,github pages,html5,IBM,jek
 # ==============================
 
 analytics:
-    enabled:    Y
-blur:
     enabled:    N
-easing:
+index:
     enabled:    Y
-indexing:
-    enabled:    N
+smooth:
+    enabled:    Y
 version:
-    enabled:    Y
+    enabled:    N
 ~~~
 
 Below is a brief overview of each option.
@@ -254,9 +251,8 @@ Below is a brief overview of each option.
 | Option     | Default | Description   |
 | ---------- |:-------:| ------------- |
 | Analytics  | N       | Google service that generates detailed statistics about your site's traffic |
-| Blur       | N       | Blur effect for the header image while scrolling up or down |
-| Easing     | Y       | Provides thresholds and smooth animation for page scrolling |
-| Indexing   | Y       | Captures all the H1 headers and drops them into a modal |
+| Index      | Y       | Captures all the H1 headers and drops them into a modal |
+| Smooth     | Y       | Provides thresholds and smooth animation for page scrolling |
 | Version    | N       | Fetches the last pegged release from GitHub and shows it under <kbd>Get Started</kbd> |
 
 > For these options, use Y or N. Anything else will disable the option.
