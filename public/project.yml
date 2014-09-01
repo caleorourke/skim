@@ -6,7 +6,9 @@
 # * Released under the MIT license
 #
 
-# (1) Spaces only, no tabs. (2) Wrap words in quotes wherever commas are used. (3) For options, use Y or N. Anything else will disable the option.
+# (1) Spaces only, no tabs. 
+# (2) Wrap words in quotes wherever commas are used. 
+# (3) For options, use Y or N. Anything else will disable the option.
 
 
 # ==============================
@@ -24,7 +26,7 @@ github:
 # ==============================
 
 twitter:
-    handle:     SoftLayerLabs
+    handle:     caleorourke
     hashtags:   "css,boilerplate,github-pages"
     text:       "Try Ferris, a one-page boilerplate for publishing content on GitHub."
 keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github pages,html5,IBM,jekyll,jquery,liquid,markdown,michael o'rourke,normalize,one-page,pygments,python,redcarpet,ruby,softlayer,softlayerlabs,technical content"
@@ -34,12 +36,10 @@ keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github 
 # ==============================
 
 analytics:
-    enabled:    N
-blur:
-    enabled:    N
-easing:
     enabled:    Y
-indexing:
+index:
+    enabled:    Y
+smooth:
     enabled:    Y
 version:
     enabled:    Y
@@ -75,5 +75,4 @@ redcarpet:
 
 permalink:      pretty
 exclude:        [".gitignore",
-                 "CONTRIBUTING.md",
                  "Gemfile"]
