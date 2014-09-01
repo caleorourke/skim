@@ -1,7 +1,7 @@
-<!-- Indexing -->
+<!-- Index -->
 <script>
     (function($) {
-        $.fn.indexing = function (options) {
+        $.fn.index = function (options) {
             headings = $("h1").filter(function() {
                 return this.id;
             });
@@ -39,6 +39,6 @@
 <!-- onDomReady -->
 <script>
     $(document).ready(function() {
-        $(".indexing").indexing();
+        $(".index").index();
     });
 </script>
