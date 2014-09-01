@@ -6,19 +6,14 @@
     {% include options/analytics.html %}
 {% endif %}
 
-<!-- Blur Option -->
-{% if site.blur.enabled == "Y" %}
-    {% include options/blur.html %}
-{% endif %}
-
-<!-- Easing Option -->
-{% if site.easing.enabled == "Y" %}
-    {% include options/easing.html %}
+<!-- Smooth Option -->
+{% if site.smooth.enabled == "Y" %}
+    {% include options/smooth.html %}
 {% endif %}
 
 <!-- Index Option -->
-{% if site.indexing.enabled == "Y" %}
-    {% include options/indexing.html %}
+{% if site.index.enabled == "Y" %}
+    {% include options/index.html %}
 {% endif %}
 
 <!-- Version Option -->
