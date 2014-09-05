@@ -22,7 +22,7 @@
 
 nav > ul > li {
     line-height: 1.8;
-    font-size: 16px;
+    font-size: 1em;
     list-style: none;
 }
 
@@ -42,9 +42,9 @@ nav > ul > li a:focus {
     z-index: 99999;
     opacity: 0;
     pointer-events: none;
-    -webkit-transition: opacity 400ms ease-in;
-       -moz-transition: opacity 400ms ease-in;
-            transition: opacity 400ms ease-in;
+    -webkit-transition: opacity .4s ease-in;
+       -moz-transition: opacity .4s ease-in;
+            transition: opacity .4ss ease-in;
 }
 
 .modal:target {
@@ -55,9 +55,9 @@ nav > ul > li a:focus {
 .modal > div {
     position: relative;
     margin: 9% auto;
-    padding: 42px 48px 24px;
-    width: 350px;
-    border-radius: 5px;
+    padding: 2.625em 3em 1.5em;
+    width: 22em;
+    border-radius: .313em;
     border-bottom: 3px solid #ddddde;
     background: #ffffff;
 }
@@ -74,7 +74,7 @@ nav > ul > li a:focus {
     .open {
         position: absolute;
         display: block;
-        font-size: 22px;
+        font-size: 1.375em;
     }
 
     .open a {
