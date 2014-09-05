@@ -21,15 +21,15 @@
    ========================= */
 
 nav > ul > li {
-    line-height: 1.8;
     font-size: 1em;
+    line-height: 1.8;
     list-style: none;
 }
 
 nav > ul > li a:active,
 nav > ul > li a:hover,
 nav > ul > li a:focus {
-    color: #333334;
+    color: #333;
 }
 
 .modal {
@@ -38,28 +38,28 @@ nav > ul > li a:focus {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #333334;
     z-index: 99999;
-    opacity: 0;
     pointer-events: none;
+    background: #333;
+    opacity: 0;
     -webkit-transition: opacity .4s ease-in;
        -moz-transition: opacity .4s ease-in;
-            transition: opacity .4ss ease-in;
+            transition: opacity .4s ease-in;
 }
 
 .modal:target {
-    opacity: 1;
     pointer-events: auto;
+    opacity: 1;
 }
 
 .modal > div {
     position: relative;
-    margin: 9% auto;
-    padding: 2.625em 3em 1.5em;
     width: 22em;
+    padding: 2.625em 3em 1.5em;
+    margin: 9% auto;
+    background: #fff;
+    border-bottom: 3px solid #ddd;
     border-radius: .313em;
-    border-bottom: 3px solid #ddddde;
-    background: #ffffff;
 }
 
 .modal > div > nav > ul > li:last-child {
@@ -78,8 +78,8 @@ nav > ul > li a:focus {
     }
 
     .open a {
+        color: #ddd;
         background-image: none;
-        color: #ddddde;
         -webkit-transition-duration: .5s;
                 transition-duration: .5s;
         -webkit-transition-property: all;
@@ -94,22 +94,22 @@ nav > ul > li a:focus {
 
 .close {
     position: absolute;
-    top: -10px;
-    right: -12px;
-    background: #999998;
-    color: #ffffff;
-    line-height: 27px;
+    top: -.625em;
+    right: -.75em;
+    width: 1.875em;
+    height: 1.75em;
+    line-height: 1.688em;
+    color: #fff;
     text-align: center;
-    height: 28px;
-    width: 30px;
-    text-decoration: none;;
+    text-decoration: none;
+    background: #999;
     -webkit-border-radius: 999px;
             border-radius: 999px;
 }
 
 .close:hover {
-    background: #555556;
-    color: #ffffff;
+    color: #fff;
+    background: #555;
 }
 
 /* =========================
@@ -117,54 +117,56 @@ nav > ul > li a:focus {
    ========================= */
 
 section {
-    padding: 32px 0 104px;
+    padding: 2em 0 6.5em;
     text-align: center;
-    background-color: #333334;
-    background-image: linear-gradient(to bottom,#353536 0,#333334 100%);
+    background-color: #333;
+    background-image: linear-gradient(to bottom,#353536 0,#333 100%);
     background-repeat: repeat-x;
 }
 
 section .name {
-    margin: 84px 0 0;
-    font-size: 40px;
+    margin: 5.25em 0 0;
+    font-size: 2.5em;
     font-weight: 700;
     line-height: 1.1;
+    color: #fff;
     letter-spacing: -.02em;
-    color: #ffffff;
 }
 
 section .tagline {
-    margin: 0 0 16px;
+    margin: 0 0 1em;
     font-size: 23px;
     font-weight: 300;
     line-height: 1.2;
+    color: #fff;
     letter-spacing: -.01em;
-    color: #ffffff;
 }
 
 section p {
     margin: 4px 0 0;
-    font-size: 14px;
-    color: #ffffff;
+    font-size: .875em;
+    color: #fff;
     opacity: .4;
 }
 
 @media (min-width: 768px) {
     section {
-        padding-top: 132px;
+        padding-top: 8.25em;
     }
+
     section .name {
         margin: 0;
-        font-size: 50px;
+        font-size: 3.125em;
     }
+
     section .tagline {
-        margin: 0 52px 18px;
+        margin: 0 3.25em 18px;
     }
 }
 
 @media (min-width: 1200px) {
     section {
-        padding-bottom: 132px;
+        padding-bottom: 8.25em;
     }
 }
 
@@ -173,15 +175,15 @@ section p {
    ========================= */
 
 footer {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    font-size: 14px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: .875em;
     border-top: 1px solid #f0f0f1;
 }
 
 footer p {
     margin-bottom: 0;
-    color: #bbbbbc;
+    color: #bbb;
 }
 
 /* =========================
@@ -189,8 +191,8 @@ footer p {
    ========================= */
 
 .margin {
-    padding-top: 72px;
-    padding-bottom: 60px;
+    padding-top: 4.5em;
+    padding-bottom: 3.75em;
 }
 
 /* =========================
@@ -198,12 +200,12 @@ footer p {
    ========================= */
 
 .wrapper {
-    padding: 0 16px 0 10px;
+    padding: 0 1em 0 .625em;
 }
 
 @media (min-width: 768px) {
     .wrapper {
-        padding: 0 52px 0 41px;
+        padding: 0 3.25em 0 2.563em;
     }
 }
 

@@ -33,23 +33,23 @@ code {
     padding: .15em .4em;
     color: #d44950;
     white-space: nowrap;
-    background-color: transparent; /* #fbfbfc */
-    border: 1px solid #ddddde;
+    background-color: transparent;
+    border: 1px solid #ddd;
     border-radius: 3px;
 }
 
 kbd {
     padding: .15em .4em;
-    color: #333334;
-    background-color: #f0f0f1;
+    color: #333;
     white-space: nowrap;
-    border: 1px solid #f0f0f1;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
     border-radius: 3px;
 }
 
 samp {
     padding: 0 0 2px;
-    color: #555556;
+    color: #555;
     white-space: nowrap;
 }
 
@@ -58,12 +58,12 @@ pre {
     padding: 1em;
     margin: 0 0 24px;
     line-height: 1.45;
-    color: #333334;
+    color: #333;
     word-break: break-all;
     word-wrap: normal;
-    background-color: #fafafb;
-    border: 1px solid #f0f0f1;
-    border-left: 24px solid #ddddde;
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-left: 24px solid #ddd;
     border-radius: 5px;
     box-shadow: inset 0 1px 0 rgba(0,0,0,.02);
 }
@@ -91,144 +91,144 @@ pre code {
 }
 
 .highlight .bp {
-    color: #336666;
+    color: #366;
 }
 .highlight .c {
-    color: #999988;
     font-style: italic;
+    color: #998;
 }
 .highlight .c1 {
-    color: #999988;
     font-style: italic;
+    color: #998;
 }
 .highlight .cm {
-    color: #777778;
+    color: #777;
 }
 .highlight .cp {
-    color: #777778;
+    color: #777;
 }
 .highlight .cs {
-    color: #777778;
+    color: #777;
 }
 .highlight .err {
     color: #a61717;
     background-color: #e3d2d2;
 }
 .highlight .gd {
-    background-color: #ffcccc;
-    border: 1px solid #cc0000;
+    background-color: #fcc;
+    border: 1px solid #c00;
 }
 .highlight .ge {
     font-style: italic;
 }
 .highlight .gh {
-    color: #003300;
+    color: #030;
 }
 .highlight .gi {
-    background-color: #ccffcc;
-    border: 1px solid #00cc00;
+    background-color: #cfc;
+    border: 1px solid #0c0;
 }
 .highlight .go {
-    color: #aaaaab;
+    color: #aaa;
 }
 .highlight .gp {
-    color: #99999a;
+    color: #999;
 }
 .highlight .gr {
-    color: #ff0000;
+    color: #f00;
 }
 .highlight .gt {
-    color: #99cc66;
+    color: #9c6;
 }
 .highlight .gu {
-    color: #aaaaab;
+    color: #aaa;
 }
 .highlight .hll {
-    background-color: #ffffcc;
+    background-color: #ffc;
 }
 .highlight .il {
-    color: #ff6600;
+    color: #f60;
 }
 .highlight .k {
-    color: #777778;
     font-weight: 700;
+    color: #777;
 }
 .highlight .kc {
-    color: #0066aa;
+    color: #06a;
 }
 .highlight .kd {
-    color: #0066aa;
+    color: #06a;
 }
 .highlight .kn {
-    color: #777778;
     font-weight: 700 ;
+    color: #777;
 }
 .highlight .kp {
-    color: #0066aa;
+    color: #06a;
 }
 .highlight .kr {
-    color: #0066aa;
+    color: #06a;
 }
 .highlight .kt {
-    color: #007788;
+    color: #078;
 }
 .highlight .m {
-    color: #ff6600;
+    color: #f60;
 }
 .highlight .mf {
-    color: #ff6600;
+    color: #f60;
 }
 .highlight .mh {
-    color: #ff6600;
+    color: #f60;
 }
 .highlight .mi {
-    color: #ff6600;
+    color: #f60;
 }
 .highlight .mo {
-    color: #ff6600;
+    color: #f60;
 }
 .highlight .na {
     color: #0080a0;
 }
 .highlight .nb {
-    color: #333334;
+    color: #333;
 }
 .highlight .nc {
-    color: #0066bb;
+    color: #06b;
 }
 .highlight .nd {
-    color: #9999ff;
+    color: #99f;
 }
 .highlight .ne {
-    color: #cc0000;
+    color: #c00;
 }
 .highlight .nf {
-    color: #cc00ff;
+    color: #c0f;
 }
 .highlight .ni {
-    color: #99999a;
+    color: #999;
 }
 .highlight .nl {
-    color: #9999ff;
+    color: #99f;
 }
 .highlight .nn {
-    color: #0099ee;
+    color: #09e;
 }
 .highlight .no {
-    color: #336600;
+    color: #360;
 }
 .highlight .nt {
-    color: #333334;
+    color: #333;
 }
 .highlight .nv {
-    color: #aaaaab;
+    color: #aaa;
 }
 .highlight .o {
-    color: #333334;
     font-weight: 700;
+    color: #333;
 }
 .highlight .ow {
-    color: #333334;
+    color: #333;
 }
 .highlight .s {
     color: #d44950;
@@ -246,8 +246,8 @@ pre code {
     color: #d44950;
 }
 .highlight .sd {
-    color: #d44950;
     font-style: italic;
+    color: #d44950;
 }
 .highlight .se {
     color: #d44950;
@@ -256,28 +256,28 @@ pre code {
     color: #d44950;
 }
 .highlight .si {
-    color: #cc0000;
+    color: #c00;
 }
 .highlight .sr {
-    color: #33aaaa;
+    color: #3aa;
 }
 .highlight .ss {
-    color: #ffcc33;
+    color: #fc3;
 }
 .highlight .sx {
     color: #d44950;
 }
 .highlight .vc {
-    color: #003333;
+    color: #033;
 }
 .highlight .vg {
-    color: #003333;
+    color: #033;
 }
 .highlight .vi {
-    color: #003333;
+    color: #033;
 }
 .highlight .w {
-    color: #bbbbbc;
+    color: #bbb;
 }
 
 /* =========================
@@ -293,18 +293,18 @@ table {
 }
 
 table > thead {
-    color: #333334;
-    background-color: #f0f0f1;
-    border: 1px solid #ddddde;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
 }
 
 table > thead > tr > th {
-    border-left: 1px solid #ddddde;
+    border-left: 1px solid #ddd;
 }
 
 table > thead > tr > th,
 table > thead > tr td {
-    padding: 8px 10px 8px 9px;
+    padding: .5em 10px .5em 9px;
     white-space: nowrap;
 }
 
@@ -314,8 +314,8 @@ table > tbody {
 
 table > tbody > tr > th,
 table > tbody > tr td {
-    padding: 8px 10px 8px 9px;
-    border: 1px solid #ddddde;
+    padding: .5em 10px .5em 9px;
+    border: 1px solid #ddd;
 }
 
 @media (min-width: 992px) {
@@ -331,8 +331,8 @@ table > tbody > tr td {
 blockquote {
     padding: 10px 20px;
     margin: 0 0 24px;
-    color: #99999a;
-    border-left: 6px solid #f0f0f1;
+    color: #999;
+    border-left: 6px solid #f0f0f0;
 }
 
 blockquote p {
@@ -364,19 +364,19 @@ blockquote ul code,
 blockquote ol code {
     padding: .15em .4em;
     font-size: 85%;
-    color: #555556;
-    background-color: #f0f0f1;
-    border-color: #f0f0f1;
+    color: #555;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
 }
 
 blockquote a {
-    color: #777778;
+    color: #777;
 }
 
 blockquote a:active,
 blockquote a:focus,
 blockquote a:hover {
-    color: #555556;
+    color: #555;
 }
 
 /* =========================
@@ -388,16 +388,16 @@ blockquote a:hover {
     padding: 36px 16px 16px;
     margin: -12px 0 24px;
     line-height: 1.45;
-    border: 1px solid #ddddde;
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 .callout code {
     padding: .15em .4em;
     font-size: 85%;
-    color: #555556;
-    background-color: #f0f0f1;
-    border-color: #f0f0f1;
+    color: #555;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
 }
 
 .callout p:last-child {
@@ -417,9 +417,9 @@ blockquote a:hover {
     padding: 12px 16px;
     font-size: 80%;
     font-weight: 700;
-    letter-spacing: .125em;
-    color: #bbbbbc;
+    color: #bbb;
     text-transform: uppercase;
+    letter-spacing: .125em;
     content: "Hint";
 }
 
@@ -439,15 +439,15 @@ blockquote a:hover {
 
 img {
     display: inline-block;
-    height: auto;
     max-width: 100%;
+    height: auto;
     padding: 8px;
     vertical-align: middle;
     border-radius: 5px;
 }
 
 .rounded {
-    border: 1px solid #bbbbbc;
+    border: 1px solid #bbb;
     border-radius: 5px;
 }
 
@@ -461,9 +461,9 @@ img {
 
 @media (min-width: 768px) {
     .logo {
-        display: inline-block;
         position: absolute;
         top: 20px;
+        display: inline-block;
     }
 }
 
@@ -484,8 +484,8 @@ img {
 
     .icons a {
         padding-right: 20px;
+        color: #fff;
         background-image: none;
-        color: #ffffff;
         -webkit-transition-duration: .5s;
                 transition-duration: .5s;
         -webkit-transition-property: all;
@@ -511,7 +511,7 @@ img {
     padding: 14px 24px;
     margin: 0 0 16px;
     font-size: 85%;
-    color: #333334;
+    color: #333;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -521,7 +521,7 @@ img {
     background-color: transparent;
     background-image: none;
     border: 4px solid transparent;
-    border-color: #333334;
+    border-color: #333;
     border-radius: 0;
     -webkit-transition-duration: .5s;
             transition-duration: .5s;
@@ -578,144 +578,144 @@ img {
 }
 
 .white {
-    color: #ffffff;
+    color: #fff;
     background-color: transparent;
-    border-color: #ffffff;
+    border-color: #fff;
 }
 
 .white:hover,
 .white:focus,
 .white:active {
-    color: #ffffff;
+    color: #fff;
 }
 
 .solid {
-    color: #ffffff;
-    background-color: #333334;
-    border-color: #333334;
-    border-radius: 5px;
-    border-width: 1px;
     padding: 12px 18px;
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    border-width: 1px;
+    border-radius: 5px;
 }
 
 .solid:hover,
 .solid:focus,
 .solid:active {
-    color: #ffffff;
-    background-color: #333334;
-    border-color: #333334;
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
 }
 
 .solid-gray {
-    color: #ffffff;
+    padding: 12px 18px;
+    color: #fff;
     background-color: #6e7578;
     border-color: #6e7578;
-    border-radius: 5px;
     border-width: 1px;
-    padding: 12px 18px;
+    border-radius: 5px;
 }
 
 .solid-gray:hover,
 .solid-gray:focus,
 .solid-gray:active {
-    color: #ffffff;
+    color: #fff;
     background-color: #5d6466;
     border-color: #5d6466;
 }
 
 .solid-blue {
-    color: #ffffff;
+    padding: 12px 18px;
+    color: #fff;
     background-color: #4087c4;
     border-color: #4087c4;
-    border-radius: 5px;
     border-width: 1px;
-    padding: 12px 18px;
+    border-radius: 5px;
 }
 
 .solid-blue:hover,
 .solid-blue:focus,
 .solid-blue:active {
-    color: #ffffff;
+    color: #fff;
     background-color: #3876ab;
     border-color: #3876ab;
 }
 
 .solid-red {
-    color: #ffffff;
+    padding: 12px 18px;
+    color: #fff;
     background-color: #d9504d;
     border-color: #d9504d;
-    border-radius: 5px;
     border-width: 1px;
-    padding: 12px 18px;
+    border-radius: 5px;
 }
 
 .solid-red:hover,
 .solid-red:focus,
 .solid-red:active {
-    color: #ffffff;
+    color: #fff;
     background-color: #d44e4b;
     border-color: #d44e4b;
 }
 
 .solid-green {
-    color: #ffffff;
+    padding: 12px 18px;
+    color: #fff;
     background-color: #57ad57;
     border-color: #57ad57;
-    border-radius: 5px;
     border-width: 1px;
-    padding: 12px 18px;
+    border-radius: 5px;
 }
 
 .solid-green:hover,
 .solid-green:focus,
 .solid-green:active {
-    color: #ffffff;
+    color: #fff;
     background-color: #53a653;
     border-color: #53a653;
 }
 
 .solid-white {
-    color: #555555;
-    background-color: #ffffff;
-    border-color: #ffffff;
-    border-radius: 5px;
-    border-width: 1px;
     padding: 12px 18px;
+    color: #555;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 5px;
 }
 
 .solid-white:hover,
 .solid-white:focus,
 .solid-white:active {
-    color: #777778;
-    background-color: #ffffff;
-    border-color: #ffffff;
+    color: #777;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 #top {
     position: fixed;
-    bottom: 16px;
     right: 12px;
+    bottom: 16px;
     padding: 13px;
     line-height: 0;
-    color: #ffffff;
-    background-color: #777778;
+    color: #fff;
+    visibility: hidden;
+    background-color: #777;
     background-image: none;
     border-radius: 999px;
     opacity: .2;
-    visibility: hidden;
 }
 
 @media (min-width: 1200px) {
     #top {
         font-size: 18px;
-        color: #bbbbbc;
+        color: #bbb;
         background-color: transparent;
         opacity: .5;
     }
 
     #top > :hover,
     #top > :focus {
-        color: #333334;
+        color: #333;
         opacity: 1;
     }
 }
