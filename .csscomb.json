@@ -1,0 +1,23 @@
+{
+    "remove-empty-rulesets": true,
+    "always-semicolon": true,
+    "color-case": "lower",
+    "block-indent": 4,
+    "color-shorthand": true,
+    "element-case": "lower",
+    "eof-newline": true,
+    "leading-zero": false,
+    "quotes": "double",
+    "space-before-colon": 0,
+    "space-after-colon": 1,
+    "space-before-combinator": 1,
+    "space-after-combinator": 1,
+    "space-between-declarations": "\n",
+    "space-before-opening-brace": 1,
+    "space-after-opening-brace": "\n",
+    "space-before-selector-delimiter": 0,
+    "space-before-closing-brace": "\n",
+    "strip-spaces": true,
+    "unitless-zero": true,
+    "vendor-prefix-align": true
+}
