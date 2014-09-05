@@ -149,10 +149,6 @@ img {
     border: 0;
 }
 
-small {
-    font-size: 80%;
-}
-
 td,
 th {
     padding: 0;
@@ -163,17 +159,12 @@ table {
     border-spacing: 0;
 }
 
-[hidden],
-template {
-    display: none;
-}
-
 /* =========================
    Base
    ========================= */
 
 body {
-    background: #ffffff;
+    background: #fff;
     color: #333334;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -195,10 +186,10 @@ u {
 }
 
 hr {
-    margin: 36px auto 48px;
+    margin: 2.25em auto 3em;
     border-top: 1px solid #ddddde;
     clear: both;
-    width: 168px;
+    width: 10.5em;
 }
 
 a {
@@ -219,7 +210,7 @@ a:active {
 
 ul,
 ol {
-    margin-bottom: 28px;
+    margin-bottom: 1.75em;
     margin-top: 0;
 }
 
@@ -246,32 +237,29 @@ h2,
 h3,
 h4 {
     line-height: 1.2;
+    margin: 1.3em 0 .3em
 }
 
 
 h1 {
-    margin: 0 0 6px;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 400;
 }
 
 h2 {
-    margin: 32px 0 6px;
-    font-size: 26px;
+    font-size: 1.625em;
     font-weight: 400;
 }
 
 h3 {
-    margin: 27px 0 6px;
     letter-spacing: -.01em;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
 }
 
 h4 {
-    margin: 21px 0 6px;
     letter-spacing: -.01em;
-    font-size: 17px;
+    font-size: 1.063em;
     font-weight: 700;
 }
 
@@ -280,8 +268,8 @@ h4 {
    ========================= */
 
 .lead {
-    margin-bottom: 24px;
-    font-size: 23px;
+    margin-bottom: 1.5em;
+    font-size: 1.438em;
     font-weight: 300;
     line-height: 1.2;
     color: #888889;
