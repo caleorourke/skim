@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "github-pages"
 gem "wdm", :platforms => [:mswin, :mingw, :x64_mingw]

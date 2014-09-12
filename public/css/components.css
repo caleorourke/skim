@@ -22,9 +22,7 @@
    ========================= */
 
 code,
-kbd,
-pre,
-samp {
+pre {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     font-size: 85%;
 }
@@ -36,21 +34,6 @@ code {
     background-color: transparent;
     border: 1px solid #ddd;
     border-radius: 3px;
-}
-
-kbd {
-    padding: .15em .4em;
-    color: #333;
-    white-space: nowrap;
-    background-color: #f0f0f0;
-    border: 1px solid #f0f0f0;
-    border-radius: 3px;
-}
-
-samp {
-    padding: 0 0 2px;
-    color: #555;
-    white-space: nowrap;
 }
 
 pre {
@@ -444,15 +427,6 @@ img {
     padding: 8px;
     vertical-align: middle;
     border-radius: 5px;
-}
-
-.rounded {
-    border: 1px solid #bbb;
-    border-radius: 5px;
-}
-
-.circle {
-    border-radius: 50%;
 }
 
 .logo {

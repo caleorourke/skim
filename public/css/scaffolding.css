@@ -66,7 +66,7 @@ a:focus {
 }
 
 mark {
-    color: #333334;
+    color: #333;
     background-color: #cfc;
 }
 
@@ -167,7 +167,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333334;
+    color: #333;
     -webkit-text-size-adjust: 100%;
     background: #fff;
     -webkit-font-smoothing: antialiased;
@@ -179,7 +179,7 @@ p {
 
 u {
     text-decoration: none;
-    background-image: linear-gradient(to right,#333334 40%,rgba(255,255,255,0) 20%);
+    background-image: linear-gradient(to right,#333 40%,rgba(255,255,255,0) 20%);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 2px 1px;
@@ -193,8 +193,8 @@ hr {
 }
 
 a {
-    color: #333334;
-    background-image: linear-gradient(to right,#333334 40%,rgba(255,255,255,0) 20%);
+    color: #333;
+    background-image: linear-gradient(to right,#333 40%,rgba(255,255,255,0) 20%);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 2px 1px;
@@ -205,7 +205,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #555556;
+    color: #555;
 }
 
 ul,
@@ -225,7 +225,7 @@ ol li > p {
 
 q {
     font-style: italic;
-    color: #555556;
+    color: #555;
 }
 
 /* =========================
@@ -233,7 +233,7 @@ q {
    ========================= */
 
 h1 {
-   margin: 1.3em 0 .1em;
+   margin: 1.3em 0 0;
 }
 
 h2,
@@ -275,7 +275,7 @@ h4 {
     font-size: 1.438em;
     font-weight: 300;
     line-height: 1.2;
-    color: #888889;
+    color: #888;
 }
 
 .hidden {
