@@ -41,7 +41,6 @@ body {
 
 article,
 aside,
-details,
 figcaption,
 figure,
 footer,
@@ -72,14 +71,6 @@ mark {
 
 sup {
     top: -.5em;
-}
-
-sub {
-    bottom: -.25em;
-}
-
-sub,
-sup {
     position: relative;
     font-size: 70%;
     line-height: 0;
@@ -92,34 +83,17 @@ hr {
     border-width: 0;
 }
 
-button,
-select {
-    text-transform: none;
-}
-
 button {
-    -webkit-appearance: button;
+    margin: 0;
+    font: inherit;
+    color: inherit;
     cursor: pointer;
+    text-transform: none;
+    -webkit-appearance: button;
 }
 
 button[disabled] {
     cursor: default;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-    margin: 0;
-    font: inherit;
-    color: inherit;
-}
-
-fieldset {
-    padding: 0;
-    margin: 0;
-    border: none;
 }
 
 del {
@@ -135,8 +109,7 @@ ol {
     line-height: inherit;
 }
 
-pre,
-textarea {
+pre {
     overflow: auto;
 }
 
@@ -174,30 +147,30 @@ body {
 }
 
 p {
-    margin: 0 0 1em;
+    margin: 0 0 12px;
 }
 
 u {
     text-decoration: none;
-    background-image: linear-gradient(to right,#333 40%,rgba(255,255,255,0) 20%);
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 75%,rgba(0,0,0,0.8) 75%);
     background-repeat: repeat-x;
-    background-position: bottom;
-    background-size: 2px 1px;
+    background-position: 0 24px;
+    background-size: 2px 2px;
 }
 
 hr {
     width: 10.5em;
-    margin: 2.25em auto 3em;
+    margin: 2.25em auto 2.5em;
     clear: both;
-    border-top: 1px solid #ddddde;
+    border-top: 1px solid #ddd;
 }
 
 a {
     color: #333;
-    background-image: linear-gradient(to right,#333 40%,rgba(255,255,255,0) 20%);
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 75%,rgba(0,0,0,0.8) 75%);
     background-repeat: repeat-x;
-    background-position: bottom;
-    background-size: 2px 1px;
+    background-position: 0 24px;
+    background-size: 2px 2px;
     -webkit-transition-duration: .3s;
             transition-duration: .3s;
 }
@@ -211,7 +184,7 @@ a:active {
 ul,
 ol {
     margin-top: 0;
-    margin-bottom: 1.75em;
+    margin-bottom: 1em;
 }
 
 ul ul,
@@ -271,7 +244,7 @@ h4 {
    ========================= */
 
 .lead {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.25em;
     font-size: 1.438em;
     font-weight: 300;
     line-height: 1.2;
