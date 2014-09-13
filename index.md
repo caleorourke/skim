@@ -4,9 +4,7 @@ layout: page
 
 # Introduction
 
-__Voted best boilerplate in North Dallas by our Grandmothers.__
-
-{{site.github.title}} is a one-page boilerplate for publishing technical content on GitHub. It provides the facilities to write exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) or HTML and spin-up [Jekyll](http://jekyllrb.com)-powered websites.
+{{site.github.title}} is a one-page boilerplate for publishing technical content on GitHub. It provides the facilities to write exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) and spin-up [Jekyll](http://jekyllrb.com)-powered websites.
 
 Browse the sections below and see just how simple it is to roll your own GitHub site for free without using fancy code.
 
@@ -14,22 +12,21 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 
 # Features and Delighters
 
-__{{site.github.title}} is chock-full of nifty doodads.__
+{{site.github.title}} is chock-full of nifty doodads and functionality, including:
 
-## Features
-
-* Responsive and mobile-friendly
+* Responsive and mobile-friendly design
 * Fast load times
 * Centralized setup from a single configuration file
 * [Google Analytics](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/analytics.html)
 * WDM gem for supporting modern Windows OSes
 * Pretty URLs
-* [Version](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/version.html) to fetch the most recent release peg from GitHub
-* [Top](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/top.html) for setting offset thresholds while scrolling
-* [Index](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/index.html) to build table of contents on-the-fly
+* GitHub API callback to fetch the most recent release version from your repo
+* Built-in table of contents that never needs to be updated manually
 * [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
 
 ## Core Environment
+
+The core for {{site.github.title}} includes:
 
 * CSS3/HTML5
 * JavaScript/jQuery
@@ -47,9 +44,7 @@ __{{site.github.title}} is chock-full of nifty doodads.__
 
 # Browser Compatibility
 
-__Recommended browsers and platforms for the best usability and performance.__
-
-Starting from best to worst, we recommend the latest versions of the following browsers.
+Below are recommended browsers and platforms for the best usability and performance. Starting from best to worst, we suggest you get the latest version for:
 
 * Chrome (~100%)
 * Safari (~75%)
@@ -57,7 +52,7 @@ Starting from best to worst, we recommend the latest versions of the following b
 * Opera (~50%)
 * Internet Explorer (~25%)
 
-Below is a comparison of each browser on different OS platforms.
+Here's a comparison of each browser on different OS platforms.
 
 | Platform    | Chrome     | Firefox     | Internet Explorer      | Opera     | Safari     |
 | ----------- |:----------:|:-----------:|:----------------------:|:---------:|:----------:|
@@ -70,7 +65,7 @@ Below is a comparison of each browser on different OS platforms.
 
 ## Legacy Browsers
 
-As for legacy browsers, support is limited to whatever the browser can handle. You can try using [Modernizr](http://modernizr.com) to circumvent compatibility issues, but it's not perfect.
+Support is limited to whatever a legacy browser can handle. You can try using [Modernizr](http://modernizr.com) to circumvent compatibility issues, but it's not perfect.
 
 ~~~html
 <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
@@ -80,8 +75,6 @@ As for legacy browsers, support is limited to whatever the browser can handle. Y
 
 # Prerequisites
 
-__What you'll need to bring before arriving to the party.__
-
 {{site.github.title}} requires the minimum version of __Ruby__ below. It also requires __Python__ to run __Pygments__, but only if you’re planning to use code highlights. Otherwise, you won't need it.
 
 * Ruby 1.9.3
@@ -90,33 +83,27 @@ __What you'll need to bring before arriving to the party.__
 
 ## Ruby
 
-{{site.github.title}} requires __Ruby 1.9.3__ at minimum. To download and install Ruby, click the button below.
+{{site.github.title}} requires __Ruby 1.9.3__ at minimum. <a href="http://www.ruby-lang.org/en/installation" target="_blank">Click here</a> to download and install Ruby.
 
-<a class="button solid-green" href="http://www.ruby-lang.org/en/installation" target="_blank">Download</a>
-
-> If you have Ruby, but aren’t sure which version, run `ruby -v`. This will show which version you have.
+*If you have Ruby, but aren’t sure which version, run `ruby -v`. This will show which version you have.*
 
 ## Python
 
-{{site.github.title}} requires __Python 2.7__. To download and install Python, click the button below.
+{{site.github.title}} requires __Python 2.7__. <a href="https://www.python.org/download/releases/2.7" target="_blank">Click here</a> to download and install Python.
 
-<a class="button solid-green" href="https://www.python.org/download/releases/2.7" target="_blank">Download</a>
-
-> If you have Python, but aren’t sure which version, run `python --version`. This will show which version you have.
+*If you have Python, but aren’t sure which version, run `python --version`. This will show which version you have.*
 
 ## Pygments
 
-{{site.github.title}} requires __Pygment 1.6__. To download and install Pygments, click the button below.
+{{site.github.title}} requires __Pygment 1.6__. <a href="http://pygments.org/download" target="_blank">Click here </a> to download and install Pygments.
 
-<a class="button solid-green" href="http://pygments.org/download" target="_blank">Download</a>
-
-> If you have Pygments, but aren’t sure which version, run `pygmentize -V`. This will show which version you have.
+*If you have Pygments, but aren’t sure which version, run `pygmentize -V`. This will show which version you have.*
 
 ---
 
 # Download and Clone
 
-__How to download or clone {{site.github.title}} from GitHub.__
+The following sections walk you through downloading or cloning {{site.github.title}} from GitHub.
 
 ## Downloading {{site.github.title}}
 
@@ -161,10 +148,10 @@ $ git clone git@github.com:{{site.github.owner_name}}/{{site.github.repository_n
 
 # Installation
 
-__How to install and add runtime dependencies.__
+The following is a "how to" for installing {{site.github.title}} and adding runtime dependencies.
 
 1. Go into the root directory for {{site.github.title}}.
-2. Run the command to install Bundler.
+2. Run `gem install bundler` to install Bundler.
 3. Run `bundle install` to load the runtime dependencies.
 
 ```bash
@@ -176,8 +163,6 @@ $ bundle install
 ---
 
 # Configuration
-
-__Who's your Daddy and what does he do?
 
 The `_config.yml` is a [YAML](http://en.m.wikipedia.org/wiki/YAML) file for storing and propagating nearly all of the site's configuration. Anything not handled by it gets handled behind the scenes by [metadata](http://help.github.com/articles/repository-metadata-on-github-pages). This means you can configure your entire site using just a single file.
 
