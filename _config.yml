@@ -16,10 +16,10 @@
 # ==============================
 
 github:
-    title:      Name of Your Website
-    tagline:    Something Catchy to Describe your Website
-    owner:      Name of Whoever Owns This
-    license:    MIT
+    title:      Your Website
+    tagline:    Something to Describe Your Website
+    owner:      Whoever Owns This
+    license:    Your License
 
 # ==============================
 # Social
@@ -39,7 +39,7 @@ analytics:
     enabled:    N
 index:
     enabled:    Y
-smooth:
+top:
     enabled:    Y
 version:
     enabled:    N
