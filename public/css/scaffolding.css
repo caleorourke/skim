@@ -57,9 +57,9 @@ a {
     background: transparent;
 }
 
-a:active,
 a:hover,
-a:focus {
+a:focus,
+a:active {
     text-decoration: none;
     outline: 0;
 }
