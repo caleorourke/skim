@@ -4,7 +4,7 @@ layout: page
 
 # Introduction
 
-<span class="lead">Voted best boilerplate in North Dallas by our Grandmothers.</span>
+__Voted best boilerplate in North Dallas by our Grandmothers.__
 
 {{site.github.title}} is a one-page boilerplate for publishing technical content on GitHub. It provides the facilities to write exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) or HTML and spin-up [Jekyll](http://jekyllrb.com)-powered websites.
 
@@ -14,7 +14,7 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 
 # Features and Delighters
 
-<span class="lead">{{site.github.title}} is chock-full of nifty doodads.</span>
+__{{site.github.title}} is chock-full of nifty doodads.__
 
 ## Features
 
@@ -25,7 +25,7 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 * WDM gem for supporting modern Windows OSes
 * Pretty URLs
 * [Version](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/version.html) to fetch the most recent release peg from GitHub
-* [Smooth](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/smooth.html) for setting offset thresholds while scrolling
+* [Top](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/top.html) for setting offset thresholds while scrolling
 * [Index](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/index.html) to build table of contents on-the-fly
 * [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
 
@@ -47,7 +47,7 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 
 # Browser Compatibility
 
-<span class="lead">Recommended browsers and platforms for the best usability and performance.</span>
+__Recommended browsers and platforms for the best usability and performance.__
 
 Starting from best to worst, we recommend the latest versions of the following browsers.
 
@@ -61,10 +61,10 @@ Below is a comparison of each browser on different OS platforms.
 
 | Platform    | Chrome     | Firefox     | Internet Explorer      | Opera     | Safari     |
 | ----------- |:----------:|:-----------:|:----------------------:|:---------:|:----------:|
-| Android     | **Yes**    | No          | N/A                    | No        | N/A        |
-| iOS         | **Yes**    | N/A         | N/A                    | No        | **Yes**    |
-| Mac OS X    | **Yes**    | **Yes**     | N/A                    | **Yes**   | **Yes**    |
-| Windows     | **Yes**    | **Yes**     | **Yes**                | **Yes**   | **Yes**    |
+| Android     | __Yes__    | No          | N/A                    | No        | N/A        |
+| iOS         | __Yes__    | N/A         | N/A                    | No        | __Yes__    |
+| Mac OS X    | __Yes__    | __Yes__     | N/A                    | __Yes__   | __Yes__    |
+| Windows     | __Yes__    | __Yes__     | __Yes__                | __Yes__   | __Yes__    |
 
 > Apple no longer provides updates for Windows-native Safari browsers. Due to major lapses in critical updates, we do not recommend using Safari on Windows.
 
@@ -80,9 +80,9 @@ As for legacy browsers, support is limited to whatever the browser can handle. Y
 
 # Prerequisites
 
-<span class="lead">What you'll need to bring before arriving to the party.</span>
+__What you'll need to bring before arriving to the party.__
 
-{{site.github.title}} requires the minimum version of **Ruby** below. It also requires **Python** to run **Pygments**, but only if you’re planning to use code highlights. Otherwise, you won't need it.
+{{site.github.title}} requires the minimum version of __Ruby__ below. It also requires __Python__ to run __Pygments__, but only if you’re planning to use code highlights. Otherwise, you won't need it.
 
 * Ruby 1.9.3
 * Python 2.7
@@ -90,39 +90,33 @@ As for legacy browsers, support is limited to whatever the browser can handle. Y
 
 ## Ruby
 
-{{site.github.title}} requires **Ruby 1.9.3** at minimum. To download and install Ruby, click the button below.
+{{site.github.title}} requires __Ruby 1.9.3__ at minimum. To download and install Ruby, click the button below.
 
 <a class="button solid-green" href="http://www.ruby-lang.org/en/installation" target="_blank">Download</a>
 
-<summary class="callout">
-If you have Ruby, but aren’t sure which version, run `ruby -v`. This will show which version you have.
-</summary>
+> If you have Ruby, but aren’t sure which version, run `ruby -v`. This will show which version you have.
 
 ## Python
 
-{{site.github.title}} requires **Python 2.7**. To download and install Python, click the button below.
+{{site.github.title}} requires __Python 2.7__. To download and install Python, click the button below.
 
 <a class="button solid-green" href="https://www.python.org/download/releases/2.7" target="_blank">Download</a>
 
-<summary class="callout">
-If you have Python, but aren’t sure which version, run `python --version`. This will show which version you have.
-</summary>
+> If you have Python, but aren’t sure which version, run `python --version`. This will show which version you have.
 
 ## Pygments
 
-{{site.github.title}} requires **Pygment 1.6**. To download and install Pygments, click the button below.
+{{site.github.title}} requires __Pygment 1.6__. To download and install Pygments, click the button below.
 
 <a class="button solid-green" href="http://pygments.org/download" target="_blank">Download</a>
 
-<summary class="callout">
-If you have Pygments, but aren’t sure which version, run `pygmentize -V`. This will show which version you have.
-</summary>
+> If you have Pygments, but aren’t sure which version, run `pygmentize -V`. This will show which version you have.
 
 ---
 
 # Download and Clone
 
-<span class="lead">How to download or clone {{site.github.title}} from GitHub.</span>
+__How to download or clone {{site.github.title}} from GitHub.__
 
 ## Downloading {{site.github.title}}
 
@@ -167,7 +161,7 @@ $ git clone git@github.com:{{site.github.owner_name}}/{{site.github.repository_n
 
 # Installation
 
-<span class="lead">How to install and add runtime dependencies.</span>
+__How to install and add runtime dependencies.__
 
 1. Go into the root directory for {{site.github.title}}.
 2. Run the command to install Bundler.
@@ -183,13 +177,13 @@ $ bundle install
 
 # Configuration
 
-<span class="lead">Who's your Daddy and what does he do?
+__Who's your Daddy and what does he do?
 
-The <samp>_config.yml</samp> is a [YAML](http://en.m.wikipedia.org/wiki/YAML) file for storing and propagating nearly all of the site's configuration. Anything not handled by it gets handled behind the scenes by [metadata](http://help.github.com/articles/repository-metadata-on-github-pages). This means you can configure your entire site using just a single file.
+The `_config.yml` is a [YAML](http://en.m.wikipedia.org/wiki/YAML) file for storing and propagating nearly all of the site's configuration. Anything not handled by it gets handled behind the scenes by [metadata](http://help.github.com/articles/repository-metadata-on-github-pages). This means you can configure your entire site using just a single file.
 
 ## Project
 
-1. Open <samp>_config.yml</samp> using any text editor.
+1. Open `_config.yml` using any text editor.
 2. Find `Project`.
 3. Fill in each field with details about your project.
 
@@ -278,7 +272,7 @@ google:
 
 # Deployment
 
-<span class="lead">Learn how to make Jekyll transform raw text into a complete, ready-to-publish static website.</span>
+__Learn how to make Jekyll transform raw text into a complete, ready-to-publish static website.__
 
 ## Local Deployment
 
@@ -306,7 +300,7 @@ Serve mode lasts forever. It won't timeout after a period of non-usage. Press <k
 
 GitHub Pages are public web pages hosted on GitHub’s `github.io` domain. Jekyll powers it behind the scenes, which makes this a snazzy way to host a free, Jekyll-powered website.
 
-Hosting on GitHub works by storing content in a branch called `gh-pages`. This means your website can be kept in the same repository as your codebase. This branch, however, will be rendered using Jekyll, and your site will get served up under a subpath of your user pages subdomain, such as <samp>username.github.io/project</samp>.
+Hosting on GitHub works by storing content in a branch called `gh-pages`. This means your website can be kept in the same repository as your codebase. This branch, however, will be rendered using Jekyll, and your site will get served up under a subpath of your user pages subdomain, such as `username.github.io/project`.
 
 ### Roll Your Own
 
@@ -326,7 +320,7 @@ $ git checkout --orphan gh-pages
 $ git rm -rf .
 ```
 
-Next, copy all the content from <samp>/{{site.github.project_title}}</samp> to your <samp>/bueller</samp> directory.
+Next, copy all the content from `/{{site.github.project_title}}` to your `/bueller` directory.
 
 ```bash
 $ cp -r ~/{{site.github.project_title}}/* ~/bueller
@@ -348,7 +342,7 @@ After you push to `gh-pages`, your site will be available at `username.github.io
 
 # Code Organization
 
-<span class="lead">Deep dive into the directory structure, workflow, and content for {{site.github.title}}.</span>
+__Deep dive into the directory structure, workflow, and content for {{site.github.title}}.__
 
 ## Pre-Install
 
@@ -389,19 +383,19 @@ Here's an overview of what each directory does or contains.
 
 | Directory                       | Overview  |
 | ------------------------------- | --------- |
-| <samp>_includes</samp>          | Semantic HTML elements and reusable content |
-| <samp>_includes/options</samp>  | Components configured to run requests for specific content |
-| <samp>_layouts</samp>           | Reusable templates for specific uses |
-| <samp>_site</samp>              | Where Jekyll places generated sites after it's transformed |
-| <samp>public</samp>             | Static directory for CSS stylesheets and images |
-| <samp>public/css</samp>         | Static CSS stylesheets in <samp>.css</samp> format |
-| <samp>public/images</samp>      | Static images files in <samp>.ico</samp>, <samp>.jpg</samp>, and <samp>.png</samp> formats |
+| `_includes`          | Semantic HTML elements and reusable content |
+| `_includes/options`  | Components configured to run requests for specific content |
+| `_layouts`           | Reusable templates for specific uses |
+| `_site`              | Where Jekyll places generated sites after it's transformed |
+| `public`             | Static directory for CSS stylesheets and images |
+| `public/css`         | Static CSS stylesheets in `.css` format |
+| `public/images`      | Static images files in `.ico`, `.jpg`, and `.png` formats |
 
 ---
 
 # Useful Resources
 
-<span class="lead">Nonspecific information written during development that might be useful to some but not everyone.</span>
+__Nonspecific information written during development that might be useful to some but not everyone.__
 
 ## DOM Elements
 
@@ -417,11 +411,11 @@ We harness several metadata tags using GitHub's [metadata](http://help.github.co
 
 Below is a list of metadata tags we use.
 
-* {%raw%}<samp>{{site.github.owner_name}}</samp>{%endraw%}
-* {%raw%}<samp>{{site.github.owner_url}}</samp>{%endraw%}
-* {%raw%}<samp>{{site.github.project_title}}</samp>{%endraw%}
-* {%raw%}<samp>{{site.github.repository_url}}</samp>{%endraw%}
-* {%raw%}<samp>{{site.github.url}}</samp>{%endraw%}
+* {%raw%}`{{site.github.owner_name}}`{%endraw%}
+* {%raw%}`{{site.github.owner_url}}`{%endraw%}
+* {%raw%}`{{site.github.project_title}}`{%endraw%}
+* {%raw%}`{{site.github.repository_url}}`{%endraw%}
+* {%raw%}`{{site.github.url}}`{%endraw%}
 
 ## Code Styles
 
@@ -436,7 +430,7 @@ insert_final_newline = false
 indent_size = 4
 ```
 
-Sublime Text users can configure these settings manually by opening <samp>Preferences > Settings - User</samp>, inserting the lines below, and saving your settings.
+Sublime Text users can configure these settings manually by opening `Preferences > Settings - User`, inserting the lines below, and saving your settings.
 
 ```
 "translate_tabs_to_spaces": true,
@@ -455,7 +449,7 @@ We use Sublime exclusively. One of its few drawbacks, though, is it does not inc
 
 ### Jekyll Packages
 
-1. Open <samp>Preferences > Package Control</samp>.
+1. Open `Preferences > Package Control`.
 2. Type <kbd>Install Package</kbd> and hit <kbd>Return</kbd>.
 3. Type <kbd>Jekyll</kbd> and hit <kbd>Return</kbd>.
 
@@ -463,7 +457,7 @@ The Jekyll package includes syntaxes for HTML, JSON, Markdown, and Textile.
 
 ### Liquid Packages
 
-1. Open <samp>Preferences > Package Control</samp>.
+1. Open `Preferences > Package Control`.
 2. Type <kbd>Install Package</kbd> and hit <kbd>Return</kbd>.
 3. Type <kbd>Siteleaf Liquid Syntax</kbd> and hit <kbd>Return</kbd>.
 
@@ -473,7 +467,7 @@ The Liquid package includes syntax for HTML.
 
 # Where to Go Next
 
-<span class="lead">A helpful serving of groovy websites that you might find helpful.</span>
+__A helpful serving of groovy websites that you might find helpful.__
 
 * <a href="http://pages.github.com" target="_blank">GitHub Pages</a>
 * <a href="http://jekyllrb.com" target="_blank">Jekyll</a>
@@ -488,6 +482,6 @@ The Liquid package includes syntax for HTML.
 
 # License
 
-<span class="lead">Some incomprehensible words from some high-strung people in suits.</span>
+__Some incomprehensible words from some high-strung people in suits.__
 
 Our code and documentation is licensed under the {{site.github.license}} license</a>. By contributing your code, you agree to license your contribution under the terms of this license.
