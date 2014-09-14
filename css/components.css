@@ -1,0 +1,480 @@
+/*
+ * Components
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+/* Table of Contents
+ *
+ * 1. Code
+ * 2. Table
+ * 3. Blockquote
+ * 4. Images
+ * 5. Icons  */
+
+
+/* =========================
+   Code
+   ========================= */
+
+code,
+pre {
+    font-family: Menlo, Monaco, Consolas, monospace;
+    font-size: 85%;
+}
+
+code {
+    padding: .15em .4em;
+    color: #d44950;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+pre {
+    display: block;
+    padding: 1em;
+    margin: 0 0 24px;
+    line-height: 1.45;
+    color: #333;
+    word-break: break-all;
+    word-wrap: normal;
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-left: 24px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,.02);
+}
+
+pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre;
+    background-color: transparent;
+    border: none;
+}
+
+.highlight pre {
+    margin-bottom: 12px;
+    overflow-x: auto;
+}
+
+.highlight pre > code {
+    white-space: pre;
+}
+
+.highlight pre > code * {
+    white-space: nowrap;
+}
+
+.highlight .bp {
+    color: #366;
+}
+
+.highlight .c {
+    font-style: italic;
+    color: #998;
+}
+
+.highlight .c1 {
+    font-style: italic;
+    color: #998;
+}
+
+.highlight .cm {
+    color: #777;
+}
+
+.highlight .cp {
+    color: #777;
+}
+
+.highlight .cs {
+    color: #777;
+}
+
+.highlight .err {
+    color: #a61717;
+    background-color: #e3d2d2;
+}
+
+.highlight .gd {
+    background-color: #fcc;
+    border: 1px solid #c00;
+}
+
+.highlight .ge {
+    font-style: italic;
+}
+
+.highlight .gh {
+    color: #030;
+}
+
+.highlight .gi {
+    background-color: #cfc;
+    border: 1px solid #0c0;
+}
+
+.highlight .go {
+    color: #aaa;
+}
+
+.highlight .gp {
+    color: #999;
+}
+
+.highlight .gr {
+    color: #f00;
+}
+
+.highlight .gt {
+    color: #9c6;
+}
+
+.highlight .gu {
+    color: #aaa;
+}
+
+.highlight .hll {
+    background-color: #ffc;
+}
+
+.highlight .il {
+    color: #f60;
+}
+
+.highlight .k {
+    font-weight: 700;
+    color: #777;
+}
+
+.highlight .kc {
+    color: #06a;
+}
+
+.highlight .kd {
+    color: #06a;
+}
+
+.highlight .kn {
+    font-weight: 700 ;
+    color: #777;
+}
+
+.highlight .kp {
+    color: #06a;
+}
+
+.highlight .kr {
+    color: #06a;
+}
+
+.highlight .kt {
+    color: #078;
+}
+
+.highlight .m {
+    color: #f60;
+}
+
+.highlight .mf {
+    color: #f60;
+}
+
+.highlight .mh {
+    color: #f60;
+}
+
+.highlight .mi {
+    color: #f60;
+}
+
+.highlight .mo {
+    color: #f60;
+}
+
+.highlight .na {
+    color: #0080a0;
+}
+
+.highlight .nb {
+    color: #333;
+}
+
+.highlight .nc {
+    color: #06b;
+}
+
+.highlight .nd {
+    color: #99f;
+}
+
+.highlight .ne {
+    color: #c00;
+}
+
+.highlight .nf {
+    color: #c0f;
+}
+
+.highlight .ni {
+    color: #999;
+}
+
+.highlight .nl {
+    color: #99f;
+}
+
+.highlight .nn {
+    color: #09e;
+}
+
+.highlight .no {
+    color: #360;
+}
+
+.highlight .nt {
+    color: #333;
+}
+
+.highlight .nv {
+    color: #aaa;
+}
+
+.highlight .o {
+    font-weight: 700;
+    color: #333;
+}
+
+.highlight .ow {
+    color: #333;
+}
+
+.highlight .s {
+    color: #d44950;
+}
+
+.highlight .s1 {
+    color: #d44950;
+}
+
+.highlight .s2 {
+    color: #d44950;
+}
+
+.highlight .sb {
+    color: #d44950;
+}
+
+.highlight .sc {
+    color: #d44950;
+}
+
+.highlight .sd {
+    font-style: italic;
+    color: #d44950;
+}
+
+.highlight .se {
+    color: #d44950;
+}
+
+.highlight .sh {
+    color: #d44950;
+}
+
+.highlight .si {
+    color: #c00;
+}
+
+.highlight .sr {
+    color: #3aa;
+}
+
+.highlight .ss {
+    color: #fc3;
+}
+
+.highlight .sx {
+    color: #d44950;
+}
+
+.highlight .vc {
+    color: #033;
+}
+
+.highlight .vg {
+    color: #033;
+}
+
+.highlight .vi {
+    color: #033;
+}
+
+.highlight .w {
+    color: #bbb;
+}
+
+/* =========================
+   Table
+   ========================= */
+
+table {
+    display: block;
+    max-width: 100%;
+    margin: 16px 0 24px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+table > thead {
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+table > thead > tr > th {
+    border-left: 1px solid #ddd;
+}
+
+table > thead > tr > th,
+table > thead > tr td {
+    padding: .5em 10px .5em 9px;
+    white-space: nowrap;
+}
+
+table > tbody {
+    overflow-x: auto;
+}
+
+table > tbody > tr > th,
+table > tbody > tr td {
+    padding: .5em 10px .5em 9px;
+    border: 1px solid #ddd;
+}
+
+@media (min-width: 992px) {
+    table {
+        display: table;
+    }
+}
+
+/* =========================
+   Blockquote
+   ========================= */
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 24px;
+    color: #999;
+    border-left: 6px solid #f0f0f0;
+}
+
+blockquote p {
+    font-size: 17.5px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+blockquote p,
+blockquote ul,
+blockquote ol {
+    display: -webkit-inline-box;
+}
+
+blockquote p:first-child,
+blockquote ul:first-child,
+blockquote ol:first-child {
+    margin-top: 0;
+}
+
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+    margin-bottom: 0;
+}
+
+blockquote p code,
+blockquote ul code,
+blockquote ol code {
+    padding: .15em .4em;
+    font-size: 85%;
+    color: #555;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+blockquote a {
+    color: #777;
+}
+
+blockquote a:active,
+blockquote a:focus,
+blockquote a:hover {
+    color: #555;
+}
+
+/* =========================
+   Images
+   ========================= */
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 8px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.logo {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        position: absolute;
+        top: 20px;
+        display: inline-block;
+    }
+}
+
+/* =========================
+   Icons
+   ========================= */
+
+.icons {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .icons {
+        display: block;
+        padding-top: 25px;
+        font-size: 23px;
+    }
+
+    .icons a {
+        padding-right: 20px;
+        color: #fff;
+        background-image: none;
+        -webkit-transition-duration: .5s;
+                transition-duration: .5s;
+        -webkit-transition-property: all;
+                transition-property: all;
+    }
+
+    .icons a:hover,
+    .icons a:focus {
+        opacity: .5;
+    }
+
+    .icons a:last-child {
+        padding-right: 0;
+    }
+}
