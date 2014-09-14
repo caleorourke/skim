@@ -20,16 +20,18 @@ github:
     tagline:    Something to Describe Your Website
     owner:      Whoever Owns This
     license:    Your License
+keywords:       "separate,keywords,with,commas"
 
 # ==============================
 # Social
 # ==============================
 
+website:        www.yourcompany.com
 twitter:
     handle:     Your Twitter Name
     hashtags:   "separate,hashtags,with,commas"
-    text:       "Check out our brand new website."
-keywords:       "separate,keywords,with,commas"
+    text:       "Check out our project documentation on GitHub."
+
 
 # ==============================
 # Options

@@ -1,3 +1,5 @@
+{% if site.top.enabled == "Y" %}
+
 <!-- Top -->
 <script>
     pageOffset = document.documentElement.scrollTop || document.body.scrollTop;
@@ -51,3 +53,5 @@
         }
     });
 </script>
+
+{% endif %}

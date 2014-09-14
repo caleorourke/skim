@@ -1,3 +1,5 @@
+{% if site.version.enabled == "Y" %}
+
 <!-- Version -->
 <script>
     $.ajax({
@@ -9,3 +11,5 @@
         }
     });
 </script>
+
+{% endif %}

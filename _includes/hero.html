@@ -1,12 +1,12 @@
 <!-- Hero -->
 <div class="wrapper">
-    <img class="logo" src="public/images/logo.png" height="91" width="188" alt="{{site.github.owner}}">
+    <p class="logo">{{site.github.owner}}</p>
 
 <div class="icons pull-right">
 
     <a href="https://twitter.com/share?hashtags={{site.twitter.hashtags}}&amp;text={{site.twitter.text}}&amp;tw_p=tweetbutton&amp;url={{site.github.url}}" target="_blank"><i class="fa fa-twitter"></i></a>
     <a href="{{site.github.repository_url}}" target="_blank"><i class="fa fa-github-alt"></i></a>
-    <a href="{{site.github.repository_url}}/stargazers" target="_blank"><i class="fa fa-star"></i></a>
+    <a href="{{site.website}}" target="_blank"><i class="fa fa-globe"></i></a>
 
 </div>
 </div>
@@ -17,10 +17,6 @@
 
     <h1 class="name">{{site.github.title}}</h1>
     <h2 class="tagline">{{site.github.tagline}}.</h2>
-
-    <a class="button white" href="#introduction">
-        Get Started
-    </a>
 
     {% if site.version.enabled == "Y" %}
         <p>Currently <span id="github-version"><i class="fa fa-spinner fa-spin"></i></span></p>
