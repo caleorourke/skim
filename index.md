@@ -20,8 +20,8 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 * [Google Analytics](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/analytics.html)
 * WDM gem for supporting modern Windows OSes
 * Pretty URLs
-* GitHub API callback to fetch the most recent release version from your repo
-* Built-in table of contents that never needs to be updated manually
+* API calls to fetch data from your GitHub repo
+* Built-in table of contents that updates automatically 
 * [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
 
 ## Core Environment
@@ -44,7 +44,7 @@ The core for {{site.github.title}} includes:
 
 # Browser Compatibility
 
-Below are recommended browsers and platforms for the best usability and performance. Starting from best to worst, we suggest you get the latest version for:
+Below are recommended browsers and platforms for the best usability and performance. Starting from best to worst, we suggest you get the latest version of:
 
 * Chrome (~100%)
 * Safari (~75%)
@@ -65,7 +65,7 @@ Here's a comparison of each browser on different OS platforms.
 
 ## Legacy Browsers
 
-Support is limited to whatever a legacy browser can handle. You can try using [Modernizr](http://modernizr.com) to circumvent compatibility issues, but it's not perfect.
+Support is limited to whatever legacy browsers can handle. You can try using [Modernizr](http://modernizr.com) to circumvent compatibility issues, but it's not perfect.
 
 ~~~html
 <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
@@ -219,7 +219,7 @@ analytics:
     enabled:    N
 index:
     enabled:    Y
-smooth:
+top:
     enabled:    Y
 version:
     enabled:    N
@@ -231,10 +231,10 @@ Below is a brief overview of each option.
 | ---------- |:-------:| ------------- |
 | Analytics  | N       | Google service that generates detailed statistics about your site's traffic |
 | Index      | Y       | Captures all the H1 headers and drops them into a modal |
-| Smooth     | Y       | Provides thresholds and smooth animation for page scrolling |
+| Top        | Y       | Turns on the "Back to Top" |
 | Version    | N       | Fetches the last pegged release from GitHub and shows it under <kbd>Get Started</kbd> |
 
-> For these options, use Y or N. Anything else will disable the option.
+*For these options, use Y or N. Anything else will disable the option.*
 
 ## Google Analytics
 
@@ -257,7 +257,7 @@ google:
 
 # Deployment
 
-__Learn how to make Jekyll transform raw text into a complete, ready-to-publish static website.__
+Learn how to make Jekyll transform raw text into a complete, ready-to-publish static website.
 
 ## Local Deployment
 
@@ -327,7 +327,7 @@ After you push to `gh-pages`, your site will be available at `username.github.io
 
 # Code Organization
 
-__Deep dive into the directory structure, workflow, and content for {{site.github.title}}.__
+The following is a simple introduction to the directory structure and contents for {{site.github.title}}.
 
 ## Pre-Install
 
@@ -344,7 +344,7 @@ Below is the basic spread for {{site.github.title}} (not including `site` for Je
 3 directories, 3 subdirectories
 ```
 
-> Folders beginning with an underscore tell Jekyll to use the content within them to generate your site. They're not exposed after the site is transformed, though.
+> Folders beginning with an underscore tell Jekyll to use the content within them to generate your site. They're not exposed after the site is created, though.
 
 ## Post-Install
 
@@ -380,15 +380,11 @@ Here's an overview of what each directory does or contains.
 
 # Useful Resources
 
-__Nonspecific information written during development that might be useful to some but not everyone.__
+Below is nonspecific information written during development that might be useful to some, but not everyone.
 
 ## DOM Elements
 
 As an optional feature, you can render the `#github-version` DOM element that we embedded within JavaScript. This element will pull in the tag/version number for the last pegged release. To enable or disable this option, check out the [Options](#options) section.
-
-## Handlers
-
-{{site.github.title}} initializes event handlers whenever the DOM is fully loaded. It also has controls for animating scroll events and a built-in handler to process callbacks for fetching JSON data from GitHub.
 
 ## Metadata
 
@@ -452,7 +448,7 @@ The Liquid package includes syntax for HTML.
 
 # Where to Go Next
 
-__A helpful serving of groovy websites that you might find helpful.__
+Here's a helpful serving of groovy websites that you might find helpful.
 
 * <a href="http://pages.github.com" target="_blank">GitHub Pages</a>
 * <a href="http://jekyllrb.com" target="_blank">Jekyll</a>
@@ -466,7 +462,5 @@ __A helpful serving of groovy websites that you might find helpful.__
 ---
 
 # License
-
-__Some incomprehensible words from some high-strung people in suits.__
 
 Our code and documentation is licensed under the {{site.github.license}} license</a>. By contributing your code, you agree to license your contribution under the terms of this license.
