@@ -12,17 +12,17 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 
 # Features and Delighters
 
-{{site.github.title}} is chock-full of nifty doodads and functionality, including:
+{{site.github.title}} is chock-full of nifty doodads and neat delighters, including:
 
 * Responsive and mobile-friendly design
 * Fast load times
 * Centralized setup from a single configuration file
-* [Google Analytics](http://github.com/{{site.github.owner_name}}/{{site.github.project_title}}/blob/gh-pages/_includes/options/analytics.html)
+* Google Analytics
 * WDM gem for supporting modern Windows OSes
 * Pretty URLs
 * API calls to fetch data from your GitHub repo
 * Built-in table of contents that updates automatically 
-* [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
+* [Repo metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
 
 ## Core Environment
 
@@ -56,9 +56,9 @@ Here's a comparison of each browser on different OS platforms.
 
 | Platform    | Chrome     | Firefox     | Internet Explorer      | Opera     | Safari     |
 | ----------- |:----------:|:-----------:|:----------------------:|:---------:|:----------:|
-| Android     | __Yes__    | No          | N/A                    | No        | N/A        |
-| iOS         | __Yes__    | N/A         | N/A                    | No        | __Yes__    |
-| Mac OS X    | __Yes__    | __Yes__     | N/A                    | __Yes__   | __Yes__    |
+| Android     | __Yes__    | No          | --                     | No        | --         |
+| iOS         | __Yes__    | --          | --                     | No        | __Yes__    |
+| Mac OS X    | __Yes__    | __Yes__     | --                     | __Yes__   | __Yes__    |
 | Windows     | __Yes__    | __Yes__     | __Yes__                | __Yes__   | __Yes__    |
 
 > Apple no longer provides updates for Windows-native Safari browsers. Due to major lapses in critical updates, we do not recommend using Safari on Windows.
@@ -138,6 +138,7 @@ $ git clone {{site.github.repository_url}}.git
 ~~~
 
 ### SSH Clone
+
 Run the command below to clone over SSH.
 
 ~~~bash
