@@ -61,7 +61,6 @@ redcarpet:
                  "fenced_code_blocks",
                  "highlight",
                  "lax_spacing",
-                 "quote",
                  "smart",
                  "strikethrough",
                  "superscript",
