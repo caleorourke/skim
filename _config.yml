@@ -6,8 +6,8 @@
 # * Released under the MIT license
 #
 
-# (1) Spaces only, no tabs. 
-# (2) Wrap words in quotes wherever commas are used. 
+# (1) Spaces only, no tabs.
+# (2) Wrap words in quotes wherever commas are used.
 # (3) For options, use Y or N. Anything else will disable the option.
 
 
@@ -74,4 +74,5 @@ redcarpet:
 
 permalink:      pretty
 exclude:        [".gitignore",
+                 "demo.config",
                  "Gemfile"]
