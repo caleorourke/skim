@@ -29,8 +29,8 @@ code {
     padding: .15em .4em;
     color: #d44950;
     white-space: nowrap;
-    background-color: transparent;
-    border: 1px solid #ddd;
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
     border-radius: 3px;
 }
 
@@ -430,18 +430,6 @@ img {
     padding: 8px;
     vertical-align: middle;
     border-radius: 5px;
-}
-
-.logo {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .logo {
-        position: absolute;
-        top: 20px;
-        display: inline-block;
-    }
 }
 
 /* =========================

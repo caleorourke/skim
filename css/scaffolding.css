@@ -301,3 +301,20 @@ h4 {
         opacity: 1;
     }
 }
+
+.brand {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .brand {
+        position: absolute;
+        top: 21px;
+        display: inline-block;
+        font-weight: 300;
+        color: #fff;
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: -.01em;
+    }
+}

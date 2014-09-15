@@ -73,6 +73,7 @@ nav > ul > li a:focus {
 @media (min-width: 768px) {
     .open {
         position: absolute;
+        margin-top: .3em;
         display: block;
         font-size: 1.375em;
     }

@@ -26,7 +26,7 @@ keywords:       "separate,keywords,with,commas"
 # Social
 # ==============================
 
-website:        www.yourcompany.com
+website:        http://www.yourcompany.com
 twitter:
     handle:     Your Twitter Name
     hashtags:   "separate,hashtags,with,commas"
@@ -44,7 +44,7 @@ index:
 top:
     enabled:    Y
 version:
-    enabled:    N
+    enabled:    Y
 
 # ==============================
 # Google Analytics

@@ -1,16 +1,20 @@
 <!-- Footer -->
 <footer class="footer">
-<div class="container">
-<div class="row">
-<div class="col-md-10 col-md-offset-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-2">
 
-    <p>Developed by {{site.github.owner}}, with help from our contributors.</p>
-    <p>Code and documentation licensed under the terms of the {{site.github.license}} License.</p>
+                <p>Developed by {{site.github.owner}}, with help from our contributors.</p>
+                <p>Code and documentation licensed under the terms of the {{site.github.license}} License.</p>
 
-</div>
-</div>
-</div>
+            </div>
+        </div>
+    </div>
 </footer>
 
-<!-- jQuery -->
+<!-- Scripts -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+{% include options/analytics.html %}
+{% include options/index.html %}
+{% include options/top.html %}
+{% include options/version.html %}
