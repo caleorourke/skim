@@ -309,11 +309,11 @@ h4 {
 @media (min-width: 768px) {
     .brand {
         position: absolute;
-        top: 21px;
+        top: 27px;
         display: inline-block;
         font-weight: 300;
         color: #fff;
-        font-size: 19px;
+        font-size: 18px;
         line-height: 1.6;
         letter-spacing: -.01em;
     }
