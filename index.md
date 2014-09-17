@@ -67,10 +67,6 @@ Here's a comparison of each browser on different OS platforms.
 
 Support is limited to whatever legacy browsers can handle. You can try using [Modernizr](http://modernizr.com) to circumvent compatibility issues, but it's not perfect.
 
-~~~html
-<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
-~~~
-
 ---
 
 # Prerequisites
@@ -83,15 +79,15 @@ Support is limited to whatever legacy browsers can handle. You can try using [Mo
 
 ## Ruby
 
-{{site.github.title}} requires __Ruby 1.9.3__ at minimum. <a href="http://www.ruby-lang.org/en/installation" target="_blank">Click here</a> to download and install Ruby. If you have Ruby, but aren’t sure which version, run `ruby -v`. This will show which version you have.
+[Click here](http://www.ruby-lang.org/en/installation) to download and install Ruby. If you have Ruby, but aren’t sure which version, run `ruby -v`.
 
 ## Python
 
-{{site.github.title}} requires __Python 2.7__. <a href="https://www.python.org/download/releases/2.7" target="_blank">Click here</a> to download and install Python. If you have Python, but aren’t sure which version, run `python --version`. This will show which version you have.
+[Click here](https://www.python.org/download/releases/2.7) to download and install Python. If you have Python, but aren’t sure which version, run `python --version`.
 
 ## Pygments
 
-{{site.github.title}} requires __Pygment 1.6__. <a href="http://pygments.org/download" target="_blank">Click here </a> to download and install Pygments. If you have Pygments, but aren’t sure which version, run `pygmentize -V`. This will show which version you have.
+[Click here](http://pygments.org/download) to download and install Pygments. If you have Pygments, but aren’t sure which version, run `pygmentize -V`.
 
 ---
 
@@ -105,7 +101,7 @@ There are a number of ways to download {{site.github.title}}. Scroll through the
 
 ### Tarball Download
 
-Click <a href="{{site.github.repository_url}}/tarball/master" target="_blank">download <i class="fa fa-cloud-download"></i></a> or run the command below.
+[Click here]({{site.github.repository_url}}/tarball/master) or run the command below.
 
 ~~~bash
 $ curl -OL {{site.github.repository_url}}/tarball/master
@@ -113,7 +109,7 @@ $ curl -OL {{site.github.repository_url}}/tarball/master
 
 ### ZIP Download
 
-Click <a href="{{site.github.repository_url}}/zipball/master" target="_blank">download <i class="fa fa-cloud-download"></i></a> or run the command below.
+[Click here]({{site.github.repository_url}}/zipball/master) or run the command below.
 
 ~~~bash
 $ curl -OL {{site.github.repository_url}}/zipball/master
@@ -123,7 +119,7 @@ $ curl -OL {{site.github.repository_url}}/zipball/master
 
 There are also a few ways to clone {{site.github.title}}. Scroll through the options below and pick one that works best for you.
 
-### HTTPS Clone
+### Clone over HTTPS
 
 Run the command below to clone over HTTPS.
 
@@ -131,7 +127,7 @@ Run the command below to clone over HTTPS.
 $ git clone {{site.github.repository_url}}.git
 ~~~
 
-### SSH Clone
+### Clone over SSH
 
 Run the command below to clone over SSH.
 
@@ -163,8 +159,8 @@ The `_config.yml` is a [YAML](http://en.m.wikipedia.org/wiki/YAML) file for stor
 
 ## Project
 
-1. Open `_config.yml` using any text editor.
-2. Find `Project`.
+1. Open "_config.yml" using any text editor.
+2. Find "Project".
 3. Fill in each field with details about your project.
 
 ~~~yaml
@@ -183,7 +179,7 @@ github:
 
 ## Social
 
-1. Scroll down to the second group of setting labeled `Social`.
+1. Scroll down to the second group of setting labeled "Social".
 2. Fill in each field with details about your social network.
 
 ~~~yaml
@@ -202,7 +198,7 @@ keywords:       "boilerplate,css,framework,github,github pages,html5,IBM,jekyll,
 
 ## Options
 
-1. Scroll down to the third group called `Options`.
+1. Scroll down to the third group called "Options".
 2. Type "Y" to enable or "N" to disabled any of the options.
 
 ~~~yaml
@@ -225,7 +221,7 @@ Below is a brief overview of each option.
 | Option     | Default | Description   |
 | ---------- |:-------:| ------------- |
 | Analytics  | N       | Google service that generates detailed statistics about your site's traffic |
-| Index      | Y       | Captures all the H1 headers and drops them into a modal |
+| Index      | Y       | Captures all H1 headers and drops them into a modal |
 | Top        | Y       | Turns on the "Back to Top" |
 | Version    | N       | Fetches the last pegged release from GitHub and shows it under "Get Started" |
 
@@ -272,9 +268,9 @@ If you want to monitor changes and apply updates without having to restart Jekyl
 $ jekyll serve --watch
 ```
 
-### Kill Jekyll
+### Stopping Jekyll
 
-Serve mode lasts forever. It won't timeout after a period of non-usage. Press "CTRL+C" to kill the process.
+Serve mode lasts forever. It won't timeout after a period of non-usage. Press "CTRL+C" to stop the service.
 
 ## Web Deployment
 
@@ -329,14 +325,13 @@ The following is a simple introduction to the directory structure and contents f
 Below is the basic spread for {{site.github.title}} (not including `site` for Jekyll).
 
 ```
+├─ _demo
 ├─ _includes
 │  └─ options
 ├─ _layouts
-├─ public
-│  ├─ css
-│  └─ images
+└─ css
 
-3 directories, 3 subdirectories
+4 directories, 1 subdirectory
 ```
 
 > Folders beginning with an underscore tell Jekyll to use the content within them to generate your site. They're not exposed after the site is created, though.
@@ -346,15 +341,14 @@ Below is the basic spread for {{site.github.title}} (not including `site` for Je
 A working environment will have one more directory: `site` (Jekyll).
 
 ```
+├─ _demo
 ├─ _includes
 │  └─ options
 ├─ _layouts
 ├─ _site
-├─ public
-│  ├─ css
-│  └─ images
+└─ css
 
-4 directories, 3 subdirectories
+5 directories, 1 subdirectory
 ```
 
 ## Directory
@@ -363,13 +357,12 @@ Here's an overview of what each directory does or contains.
 
 | Directory                       | Overview  |
 | ------------------------------- | --------- |
+| `_demo`              | Reusable content for the demo under the `gh-pages` branch. You can delete this directory. |
 | `_includes`          | Semantic HTML elements and reusable content |
-| `_includes/options`  | Components configured to run requests for specific content |
+| `_includes/options`  | Components configured to run requests for specific content or data elements |
 | `_layouts`           | Reusable templates for specific uses |
 | `_site`              | Where Jekyll places generated sites after it's transformed |
-| `public`             | Static directory for CSS stylesheets and images |
-| `public/css`         | Static CSS stylesheets in `.css` format |
-| `public/images`      | Static images files in `.ico`, `.jpg`, and `.png` formats |
+| `css`                | Static CSS stylesheets in `.css` format |
 
 ---
 
@@ -387,11 +380,11 @@ We harness several metadata tags using GitHub's [metadata](http://help.github.co
 
 Below is a list of metadata tags we use.
 
-* {%raw%}`{{site.github.owner_name}}`{%endraw%}
-* {%raw%}`{{site.github.owner_url}}`{%endraw%}
-* {%raw%}`{{site.github.project_title}}`{%endraw%}
-* {%raw%}`{{site.github.repository_url}}`{%endraw%}
-* {%raw%}`{{site.github.url}}`{%endraw%}
+* {%raw%}{{site.github.owner_name}}{%endraw%}
+* {%raw%}{{site.github.owner_url}}{%endraw%}
+* {%raw%}{{site.github.project_title}}{%endraw%}
+* {%raw%}{{site.github.repository_url}}{%endraw%}
+* {%raw%}{{site.github.url}}{%endraw%}
 
 ## Code Styles
 
@@ -408,7 +401,7 @@ indent_size = 4
 
 Sublime Text users can configure these settings manually by opening `Preferences > Settings - User`, inserting the lines below, and saving your settings.
 
-```
+```json
 "translate_tabs_to_spaces": true,
 "tab_size": 4,
 "ensure_newline_at_eof_on_save": false,
@@ -425,7 +418,7 @@ We use Sublime exclusively. One of its few drawbacks, though, is it does not inc
 
 ### Jekyll Packages
 
-1. Open `Preferences > Package Control`.
+1. Open "Preferences > Package Control".
 2. Type "Install Package" and hit "Return".
 3. Type "Jekyll" and hit "Return".
 
@@ -433,7 +426,7 @@ The Jekyll package includes syntaxes for HTML, JSON, Markdown, and Textile.
 
 ### Liquid Packages
 
-1. Open `Preferences > Package Control`.
+1. Open "Preferences > Package Control".
 2. Type "Install Package" and hit "Return".
 3. Type "Siteleaf Liquid Syntax" and hit "Return".
 
