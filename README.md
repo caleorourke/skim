@@ -7,7 +7,7 @@ Ferris is a one-page boilerplate for publishing content on GitHub. It's designed
 
 ## Quick Install
 
-1. Clone from GitHub and go into the directory (~3 seconds). Directory size hovers around ~76 KB.
+1. Clone from GitHub and go into the directory (~3 seconds). Directory size hovers around ~35 KB.
 
         $ git clone -o master https://github.com/caleorourke/ferris.git
         $ cd ferris
