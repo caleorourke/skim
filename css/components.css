@@ -28,10 +28,10 @@ pre {
 
 code {
     padding: .15em .4em;
-    color: #d44950;
+    color: #e00;
     white-space: nowrap;
     background-color: transparent;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #e4e4e4;
     border-radius: 3px;
 }
 
@@ -40,7 +40,7 @@ pre {
     padding: 1em;
     margin: 0 0 24px;
     line-height: 1.45;
-    color: #333;
+    color: #111;
     word-break: break-all;
     word-wrap: normal;
     background-color: #fafafa;
@@ -130,7 +130,7 @@ pre code {
 }
 
 .highlight .gr {
-    color: #f00;
+    color: #e00;
 }
 
 .highlight .gt {
@@ -204,7 +204,7 @@ pre code {
 }
 
 .highlight .nb {
-    color: #333;
+    color: #111;
 }
 
 .highlight .nc {
@@ -240,7 +240,7 @@ pre code {
 }
 
 .highlight .nt {
-    color: #333;
+    color: #111;
 }
 
 .highlight .nv {
@@ -249,44 +249,44 @@ pre code {
 
 .highlight .o {
     font-weight: 700;
-    color: #333;
+    color: #111;
 }
 
 .highlight .ow {
-    color: #333;
+    color: #111;
 }
 
 .highlight .s {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .s1 {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .s2 {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .sb {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .sc {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .sd {
     font-style: italic;
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .se {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .sh {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .si {
@@ -302,7 +302,7 @@ pre code {
 }
 
 .highlight .sx {
-    color: #d44950;
+    color: #e00;
 }
 
 .highlight .vc {
@@ -318,7 +318,7 @@ pre code {
 }
 
 .highlight .w {
-    color: #bbb;
+    color: #aaa;
 }
 
 /* =========================
@@ -334,7 +334,7 @@ table {
 }
 
 table > thead {
-    color: #333;
+    color: #111;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
 }
@@ -474,7 +474,7 @@ img {
     bottom: 16px;
     padding: 13px;
     line-height: 0;
-    color: #bbb;
+    color: #aaa;
     visibility: hidden;
     background-color: #fff;
     background-image: none;
@@ -485,7 +485,7 @@ img {
 @media (min-width: 1200px) {
     #top {
         font-size: 18px;
-        color: #bbb;
+        color: #aaa;
         background-color: transparent;
         opacity: .5;
     }

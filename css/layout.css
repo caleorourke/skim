@@ -29,7 +29,7 @@ nav > ul > li {
 nav > ul > li a:active,
 nav > ul > li a:hover,
 nav > ul > li a:focus {
-    color: #333;
+    color: #111;
 }
 
 .modal {
@@ -40,7 +40,7 @@ nav > ul > li a:focus {
     left: 0;
     z-index: 99999;
     pointer-events: none;
-    background: #333;
+    background: #111;
     opacity: 0;
     -webkit-transition: opacity .4s ease-in;
        -moz-transition: opacity .4s ease-in;
@@ -56,7 +56,7 @@ nav > ul > li a:focus {
     position: relative;
     width: 22em;
     padding: 2.625em 3em 1.5em;
-    margin: 9% auto;
+    margin: 10% auto;
     background: #fff;
     border-bottom: 3px solid #ddd;
     border-radius: .313em;
@@ -120,8 +120,8 @@ nav > ul > li a:focus {
 section {
     padding: 2em 0 4em;
     text-align: center;
-    background-color: #333;
-    background-image: linear-gradient(to bottom,#353536 0,#333 100%);
+    background-color: #111;
+    background-image: linear-gradient(to bottom,#151515 0,#111 100%);
     background-repeat: repeat-x;
 }
 
@@ -174,12 +174,12 @@ footer {
     padding-top: 2em;
     padding-bottom: 2em;
     font-size: .875em;
-    border-top: 1px solid #f0f0f1;
+    border-top: 1px solid #f0f0f0;
 }
 
 footer p {
     margin-bottom: 0;
-    color: #bbb;
+    color: #aaa;
 }
 
 /* =========================

@@ -41,8 +41,6 @@ body {
 
 article,
 aside,
-figcaption,
-figure,
 footer,
 header,
 main,
@@ -65,7 +63,7 @@ a:active {
 }
 
 mark {
-    color: #333;
+    color: #111;
     background-color: #cfc;
 }
 
@@ -127,7 +125,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #111;
     background: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -153,7 +151,7 @@ hr {
 }
 
 a {
-    color: #333;
+    color: #111;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0) 75%,rgba(0,0,0,.8) 75%);
     background-repeat: repeat-x;
     background-position: 0 16.5px;
@@ -234,18 +232,6 @@ h4 {
     visibility: visible !important;
 }
 
-.absolute {
-    position: absolute;
-}
-
-.fixed {
-    position: fixed;
-}
-
-.relative {
-    position: relative;
-}
-
 .text-left {
     text-align: left;
 }
@@ -264,10 +250,4 @@ h4 {
 
 .pull-left {
     float: left !important;
-}
-
-.pull-center {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
