@@ -39,7 +39,7 @@ analytics:
     enabled:    Y
 index:
     enabled:    Y
-smooth:
+top:
     enabled:    Y
 version:
     enabled:    Y
@@ -61,7 +61,6 @@ redcarpet:
                  "fenced_code_blocks",
                  "highlight",
                  "lax_spacing",
-                 "quote",
                  "smart",
                  "strikethrough",
                  "superscript",
