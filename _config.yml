@@ -44,7 +44,7 @@ index:
 top:
     enabled:    Y
 version:
-    enabled:    Y
+    enabled:    N
 
 # ==============================
 # Google Analytics

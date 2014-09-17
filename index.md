@@ -21,7 +21,7 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 * WDM gem for supporting modern Windows OSes
 * Pretty URLs
 * API calls to fetch data from your GitHub repo
-* Built-in table of contents that updates automatically 
+* Built-in table of contents that updates automatically
 * [Repo metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
 
 ## Core Environment
@@ -83,21 +83,15 @@ Support is limited to whatever legacy browsers can handle. You can try using [Mo
 
 ## Ruby
 
-{{site.github.title}} requires __Ruby 1.9.3__ at minimum. <a href="http://www.ruby-lang.org/en/installation" target="_blank">Click here</a> to download and install Ruby.
-
-*If you have Ruby, but aren’t sure which version, run `ruby -v`. This will show which version you have.*
+{{site.github.title}} requires __Ruby 1.9.3__ at minimum. <a href="http://www.ruby-lang.org/en/installation" target="_blank">Click here</a> to download and install Ruby. If you have Ruby, but aren’t sure which version, run `ruby -v`. This will show which version you have.
 
 ## Python
 
-{{site.github.title}} requires __Python 2.7__. <a href="https://www.python.org/download/releases/2.7" target="_blank">Click here</a> to download and install Python.
-
-*If you have Python, but aren’t sure which version, run `python --version`. This will show which version you have.*
+{{site.github.title}} requires __Python 2.7__. <a href="https://www.python.org/download/releases/2.7" target="_blank">Click here</a> to download and install Python. If you have Python, but aren’t sure which version, run `python --version`. This will show which version you have.
 
 ## Pygments
 
-{{site.github.title}} requires __Pygment 1.6__. <a href="http://pygments.org/download" target="_blank">Click here </a> to download and install Pygments.
-
-*If you have Pygments, but aren’t sure which version, run `pygmentize -V`. This will show which version you have.*
+{{site.github.title}} requires __Pygment 1.6__. <a href="http://pygments.org/download" target="_blank">Click here </a> to download and install Pygments. If you have Pygments, but aren’t sure which version, run `pygmentize -V`. This will show which version you have.
 
 ---
 
@@ -201,7 +195,7 @@ twitter:
     handle:     SoftLayerLabs
     hashtags:   "css,boilerplate,github-pages"
     text:       "Try Ferris, a one-page boilerplate for posting technical content on GitHub."
-keywords:       "boilerplate,css,feo,framework,github,github pages,html5,IBM,jekyll,liquid,markdown,one-page,redcarpet,softlayer"
+keywords:       "boilerplate,css,framework,github,github pages,html5,IBM,jekyll,liquid,markdown,one-page,redcarpet,softlayer"
 ~~~
 
 > Wrap words in quotes wherever commas are used.
@@ -209,7 +203,7 @@ keywords:       "boilerplate,css,feo,framework,github,github pages,html5,IBM,jek
 ## Options
 
 1. Scroll down to the third group called `Options`.
-2. Type <kbd>Y</kbd> to enable or <kbd>N</kbd> to disabled any of the options.
+2. Type "Y" to enable or "N" to disabled any of the options.
 
 ~~~yaml
 # ==============================
@@ -233,7 +227,7 @@ Below is a brief overview of each option.
 | Analytics  | N       | Google service that generates detailed statistics about your site's traffic |
 | Index      | Y       | Captures all the H1 headers and drops them into a modal |
 | Top        | Y       | Turns on the "Back to Top" |
-| Version    | N       | Fetches the last pegged release from GitHub and shows it under <kbd>Get Started</kbd> |
+| Version    | N       | Fetches the last pegged release from GitHub and shows it under "Get Started" |
 
 *For these options, use Y or N. Anything else will disable the option.*
 
@@ -251,7 +245,7 @@ Below is a brief overview of each option.
 # ==============================
 
 google:
-    id:         UA-40037365-5
+    id:         UA-12345678-9
 ~~~
 
 ---
@@ -268,7 +262,7 @@ Run the following command to preview a local instance of your site.
 $ jekyll serve
 ```
 
-Once Jekyll has started, fire up a browser and type in <kbd>localhost:4000</kbd> for the web address. This will show the site Jekyll just generated.
+Once Jekyll has started, fire up a browser and type in "localhost:4000" for the web address. This will show the site Jekyll just generated.
 
 ### Watch Jekyll
 
@@ -280,7 +274,7 @@ $ jekyll serve --watch
 
 ### Kill Jekyll
 
-Serve mode lasts forever. It won't timeout after a period of non-usage. Press <kbd>CTRL+C</kbd> to kill the process.
+Serve mode lasts forever. It won't timeout after a period of non-usage. Press "CTRL+C" to kill the process.
 
 ## Web Deployment
 
@@ -432,16 +426,16 @@ We use Sublime exclusively. One of its few drawbacks, though, is it does not inc
 ### Jekyll Packages
 
 1. Open `Preferences > Package Control`.
-2. Type <kbd>Install Package</kbd> and hit <kbd>Return</kbd>.
-3. Type <kbd>Jekyll</kbd> and hit <kbd>Return</kbd>.
+2. Type "Install Package" and hit "Return".
+3. Type "Jekyll" and hit "Return".
 
 The Jekyll package includes syntaxes for HTML, JSON, Markdown, and Textile.
 
 ### Liquid Packages
 
 1. Open `Preferences > Package Control`.
-2. Type <kbd>Install Package</kbd> and hit <kbd>Return</kbd>.
-3. Type <kbd>Siteleaf Liquid Syntax</kbd> and hit <kbd>Return</kbd>.
+2. Type "Install Package" and hit "Return".
+3. Type "Siteleaf Liquid Syntax" and hit "Return".
 
 The Liquid package includes syntax for HTML.
 
