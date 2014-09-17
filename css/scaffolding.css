@@ -141,7 +141,7 @@ u {
     text-decoration: none;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0) 75%,rgba(0,0,0,.8) 75%);
     background-repeat: repeat-x;
-    background-position: 0 16px;
+    background-position: 0 16.5px;
     background-size: 2px 2px;
 }
 
@@ -156,7 +156,7 @@ a {
     color: #333;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0) 75%,rgba(0,0,0,.8) 75%);
     background-repeat: repeat-x;
-    background-position: 0 16px;
+    background-position: 0 16.5px;
     background-size: 2px 2px;
     -webkit-transition-duration: .3s;
             transition-duration: .3s;
@@ -211,14 +211,13 @@ h2 {
 
 h3 {
     font-size: 1.375em;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: -.01em;
 }
 
 h4 {
     font-size: 1.063em;
     font-weight: 700;
-    letter-spacing: -.01em;
 }
 
 /* =========================
@@ -271,50 +270,4 @@ h4 {
     display: block;
     margin-right: auto;
     margin-left: auto;
-}
-
-#top {
-    position: fixed;
-    right: 12px;
-    bottom: 16px;
-    padding: 13px;
-    line-height: 0;
-    color: #bbb;
-    visibility: hidden;
-    background-color: #fff;
-    background-image: none;
-    border-radius: 999px;
-    opacity: .2;
-}
-
-@media (min-width: 1200px) {
-    #top {
-        font-size: 18px;
-        color: #bbb;
-        background-color: transparent;
-        opacity: .5;
-    }
-
-    #top > :hover,
-    #top > :focus {
-        color: #999;
-        opacity: 1;
-    }
-}
-
-.brand {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .brand {
-        position: absolute;
-        top: 27px;
-        display: inline-block;
-        font-weight: 300;
-        color: #fff;
-        font-size: 18px;
-        line-height: 1.6;
-        letter-spacing: -.01em;
-    }
 }

@@ -399,15 +399,17 @@ insert_final_newline = false
 indent_size = 4
 ```
 
-Sublime Text users can configure these settings manually by opening `Preferences > Settings - User`, inserting the lines below, and saving your settings.
+Sublime Text users can configure these settings manually by opening "Preferences > Settings - User", inserting the lines below, and saving your settings.
 
 ```json
-"translate_tabs_to_spaces": true,
-"tab_size": 4,
-"ensure_newline_at_eof_on_save": false,
-"default_encoding": "UTF-8",
-"default_line_ending": "lf",
-"trim_trailing_white_space_on_save": true
+{
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    "ensure_newline_at_eof_on_save": false,
+    "default_encoding": "UTF-8",
+    "default_line_ending": "lf",
+    "trim_trailing_white_space_on_save": true
+}
 ```
 
 ## Sublime Packages

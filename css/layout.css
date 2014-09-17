@@ -153,6 +153,7 @@ section p {
 @media (min-width: 768px) {
     section {
         padding-top: 8em;
+        padding-bottom: 8em;
     }
 
     section .name {
@@ -162,12 +163,6 @@ section p {
 
     section .tagline {
         margin: 0 3.25em 18px;
-    }
-}
-
-@media (min-width: 1200px) {
-    section {
-        padding-bottom: 7em;
     }
 }
 
