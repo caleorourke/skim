@@ -40,7 +40,7 @@ pre {
     padding: 1em;
     margin: 0 0 24px;
     line-height: 1.45;
-    color: #111;
+    color: #222;
     word-break: break-all;
     word-wrap: normal;
     background-color: #fafafa;
@@ -204,7 +204,7 @@ pre code {
 }
 
 .highlight .nb {
-    color: #111;
+    color: #222;
 }
 
 .highlight .nc {
@@ -240,7 +240,7 @@ pre code {
 }
 
 .highlight .nt {
-    color: #111;
+    color: #222;
 }
 
 .highlight .nv {
@@ -249,11 +249,11 @@ pre code {
 
 .highlight .o {
     font-weight: 700;
-    color: #111;
+    color: #222;
 }
 
 .highlight .ow {
-    color: #111;
+    color: #222;
 }
 
 .highlight .s {
@@ -334,7 +334,7 @@ table {
 }
 
 table > thead {
-    color: #111;
+    color: #222;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
 }

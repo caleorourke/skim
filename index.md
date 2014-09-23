@@ -171,7 +171,7 @@ The `_config.yml` is a [YAML](http://en.m.wikipedia.org/wiki/YAML) file for stor
 github:
     title:      Ferris
     tagline:    A one-page boilerplate for publishing content on GitHub
-    owner:      "SoftLayer, an IBM Company"
+    owner:      "Bueller Company, LLC"
     license:    MIT
 ~~~
 
@@ -188,10 +188,10 @@ github:
 # ==============================
 
 twitter:
-    handle:     SoftLayerLabs
+    handle:     BuellerLabs
     hashtags:   "css,boilerplate,github-pages"
     text:       "Try Ferris, a one-page boilerplate for posting technical content on GitHub."
-keywords:       "boilerplate,css,framework,github,github pages,html5,IBM,jekyll,liquid,markdown,one-page,redcarpet,softlayer"
+keywords:       "boilerplate,css,framework,github,github pages,html5,jekyll,liquid,markdown,one-page,redcarpet"
 ~~~
 
 > Wrap words in quotes wherever commas are used.
@@ -325,13 +325,11 @@ The following is a simple introduction to the directory structure and contents f
 Below is the basic spread for {{site.github.title}} (not including `site` for Jekyll).
 
 ```
-├─ _demo
 ├─ _includes
-│  └─ options
 ├─ _layouts
 └─ css
 
-4 directories, 1 subdirectory
+3 directories
 ```
 
 > Folders beginning with an underscore tell Jekyll to use the content within them to generate your site. They're not exposed after the site is created, though.
@@ -341,38 +339,30 @@ Below is the basic spread for {{site.github.title}} (not including `site` for Je
 A working environment will have one more directory: `site` (Jekyll).
 
 ```
-├─ _demo
 ├─ _includes
-│  └─ options
 ├─ _layouts
 ├─ _site
 └─ css
 
-5 directories, 1 subdirectory
+4 directories
 ```
 
 ## Directory
 
 Here's an overview of what each directory does or contains.
 
-| Directory                       | Overview  |
-| ------------------------------- | --------- |
-| `_demo`              | Reusable content for the demo under the `gh-pages` branch. You can delete this directory. |
-| `_includes`          | Semantic HTML elements and reusable content |
-| `_includes/options`  | Components configured to run requests for specific content or data elements |
-| `_layouts`           | Reusable templates for specific uses |
-| `_site`              | Where Jekyll places generated sites after it's transformed |
-| `css`                | Static CSS stylesheets in `.css` format |
+| Directory    | Overview  |
+| ------------ | --------- |
+| `_includes`  | Semantic HTML elements and reusable content |
+| `_layouts`   | Reusable templates for specific uses |
+| `_site`      | Where Jekyll places generated sites after it's transformed |
+| `css`        | Static CSS stylesheets in `.css` format |
 
 ---
 
 # Useful Resources
 
 Below is nonspecific information written during development that might be useful to some, but not everyone.
-
-## DOM Elements
-
-As an optional feature, you can render the `#github-version` DOM element that we embedded within JavaScript. This element will pull in the tag/version number for the last pegged release. To enable or disable this option, check out the [Options](#options) section.
 
 ## Metadata
 

@@ -29,7 +29,7 @@ nav > ul > li {
 nav > ul > li a:active,
 nav > ul > li a:hover,
 nav > ul > li a:focus {
-    color: #111;
+    color: #222;
 }
 
 .modal {
@@ -40,7 +40,7 @@ nav > ul > li a:focus {
     left: 0;
     z-index: 99999;
     pointer-events: none;
-    background: #111;
+    background: #222;
     opacity: 0;
     -webkit-transition: opacity .4s ease-in;
        -moz-transition: opacity .4s ease-in;
@@ -120,8 +120,8 @@ nav > ul > li a:focus {
 section {
     padding: 2em 0 4em;
     text-align: center;
-    background-color: #111;
-    background-image: linear-gradient(to bottom,#151515 0,#111 100%);
+    background-color: #222;
+    background-image: linear-gradient(to bottom,#151515 0,#222 100%);
     background-repeat: repeat-x;
 }
 
