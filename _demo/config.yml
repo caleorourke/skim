@@ -2,7 +2,7 @@
 # * Config
 # * Stores static configuration and project info
 # *
-# * Copyright © SoftLayer, an IBM Company
+# * Copyright © Michael O'Rourke (@caleorourke)
 # * Released under the MIT license
 #
 
@@ -18,7 +18,7 @@
 github:
     title:      Ferris
     tagline:    A one-page boilerplate for publishing content on GitHub
-    owner:      "SoftLayer, an IBM Company"
+    owner:      "Ferris Company, LLC"
     license:    MIT
 
 # ==============================
@@ -29,7 +29,7 @@ twitter:
     handle:     caleorourke
     hashtags:   "css,boilerplate,github-pages"
     text:       "Try Ferris, a one-page boilerplate for publishing content on GitHub."
-keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github pages,html5,IBM,jekyll,jquery,liquid,markdown,michael o'rourke,normalize,one-page,pygments,python,redcarpet,ruby,softlayer,softlayerlabs,technical content"
+keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github pages,html5,jekyll,jquery,liquid,markdown,michael o'rourke,normalize,one-page,pygments,python,redcarpet,ruby,technical content"
 
 # ==============================
 # Options
