@@ -1,0 +1,120 @@
+<!-- Analytics -->
+{% if site.analytics.enabled == "Y" %}
+    <script>
+        (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+        ga("create", "{{site.google.id}}", "auto");
+        ga("send", "pageview");
+    </script>
+{% endif %}
+
+<!-- Index -->
+{% if site.index.enabled == "Y" %}
+    <script>
+        (function($) {
+            $.fn.index = function(options) {
+                headings = $("h1").filter(function() {
+                    return this.id;
+                });
+                output = $(this);
+                if (!headings.length || headings.length < 1 || !output.length) {
+                    return;
+                }
+                get_level = function(ele) {
+                    return parseInt(ele.nodeName.replace("H", ""), 10);
+                };
+                level = get_level(headings[0]);
+                this_level = void 0;
+                html = "";
+                headings.on("click", function() {
+                    window.location.hash = this.id;
+                }).each(function(_, heading) {
+                    this_level = get_level(heading);
+                    if (this_level === level) {
+                        html += "<li><a href='#" + heading.id + "'>" + heading.innerHTML + "</a>";
+                    }
+                    level = this_level;
+                });
+                output.html(html);
+            };
+        })(jQuery);
+    </script>
+
+<!-- onDomReady -->
+    <script>
+        $(document).ready(function() {
+            $(".index").index();
+        });
+    </script>
+{% endif %}
+
+<!-- Top -->
+{% if site.top.enabled == "Y" %}
+    <script>
+        pageOffset = document.documentElement.scrollTop || document.body.scrollTop;
+        scrollTo = function(element, to, duration) {
+            start = element.scrollTop;
+            change = to - start;
+            currentTime = 0;
+            increment = 20;
+            animateScroll = function() {
+                currentTime += increment;
+                val = Math.easeInOutQuad(currentTime, start, change, duration);
+                element.scrollTop = val;
+                if (currentTime < duration) {
+                    setTimeout(animateScroll, increment);
+                }
+            };
+            Math.easeInOutQuad = function(t, b, c, d) {
+                t /= d / 2;
+                if (t < 1) {
+                    return c / 2 * t * t + b;
+                }
+                t--;
+                return -c / 2 * (t * (t - 2) - 1) + b;
+            };
+            animateScroll();
+        };
+        window.onscroll = function() {
+            if (pageYOffset >= 400) {
+                document.getElementById("top").style.visibility = "visible";
+            } else {
+                document.getElementById("top").style.visibility = "hidden";
+                return;
+            }
+            document.getElementById("top").onclick = function() {
+                scrollTo(document.body, 0, 0);
+            };
+        };
+        $("a[href*=#]:not([href=#open])").click(function() {
+            if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") || location.hostname ==
+                this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+                if (target.length > 0) {
+                    $("html,body").animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    </script>
+{% endif %}
+
+<!-- Version -->
+{% if site.version.enabled == "Y" %}
+    <script>
+        $.ajax({
+            url: "https://api.github.com/repos/" + "{{site.github.owner_name}}/" + "{{site.github.project_title}}/" + "tags?callback?",
+            dataType: "jsonp",
+            success: function(json) {
+                lastTag = json.data[0];
+                $("#github-version").text(lastTag.name);
+            }
+        });
+    </script>
+{% endif %}

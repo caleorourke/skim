@@ -1,0 +1,77 @@
+#
+# * Config
+# * Stores static configuration and project info
+# *
+# * Copyright © Michael O'Rourke (@caleorourke)
+# * Released under the MIT license
+#
+
+# (1) Spaces only, no tabs.
+# (2) Wrap words in quotes wherever commas are used.
+# (3) For options, use Y or N. Anything else will disable the option.
+
+
+# ==============================
+# Project
+# ==============================
+
+github:
+    title:      Ferris
+    tagline:    A one-page boilerplate for publishing content on GitHub
+    owner:      "Bueller Company, LLC"
+    license:    MIT
+
+# ==============================
+# Social
+# ==============================
+
+twitter:
+    handle:     BuellerLabs
+    hashtags:   "css,boilerplate,github-pages"
+    text:       "Try Ferris, a one-page boilerplate for publishing content on GitHub."
+keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github pages,html5,jekyll,jquery,liquid,markdown,michael o'rourke,normalize,one-page,pygments,python,redcarpet,ruby,technical content"
+
+# ==============================
+# Options
+# ==============================
+
+analytics:
+    enabled:    Y
+index:
+    enabled:    Y
+top:
+    enabled:    Y
+version:
+    enabled:    Y
+
+# ==============================
+# Google Analytics
+# ==============================
+
+google:
+    id:         UA-40037365-5
+
+# ==============================
+# Markdown
+# ==============================
+
+markdown:       redcarpet
+redcarpet:
+    extensions: ["autolink",
+                 "fenced_code_blocks",
+                 "highlight",
+                 "lax_spacing",
+                 "smart",
+                 "strikethrough",
+                 "superscript",
+                 "tables",
+                 "underline",
+                 "with_toc_data"]
+
+# ==============================
+# Server
+# ==============================
+
+permalink:      pretty
+exclude:        [".gitignore",
+                 "Gemfile"]
