@@ -52,4 +52,4 @@ Anyone is welcome to submit an issue or request. All we ask is that you glance t
 
 ## License
 
-Code and documentation is licensed under the MIT license. By contributing your code, you agree to license your contribution under the terms of this license.
+Code and documentation is licensed under the MIT license.
