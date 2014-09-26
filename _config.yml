@@ -76,5 +76,4 @@ redcarpet:
 
 permalink:      pretty
 exclude:        [".gitignore",
-                 "demo.config",
                  "Gemfile"]
