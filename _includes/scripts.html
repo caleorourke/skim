@@ -10,6 +10,7 @@
         ga("send", "pageview");
     </script>
 {% endif %}
+<!-- End Analytics -->
 
 <!-- Index -->
 {% if site.index.enabled == "Y" %}
@@ -43,13 +44,14 @@
         })(jQuery);
     </script>
 
-<!-- onDomReady -->
+    <!-- onDomReady -->
     <script>
         $(document).ready(function() {
             $(".index").index();
         });
     </script>
 {% endif %}
+<!-- End Index -->
 
 <!-- Top -->
 {% if site.top.enabled == "Y" %}
@@ -104,6 +106,7 @@
         });
     </script>
 {% endif %}
+<!-- End Top -->
 
 <!-- Version -->
 {% if site.version.enabled == "Y" %}
@@ -118,3 +121,4 @@
         });
     </script>
 {% endif %}
+<!-- End Version -->
