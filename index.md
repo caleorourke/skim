@@ -327,7 +327,7 @@ Below is the basic spread for {{site.github.title}} (not including `site` for Je
 ```
 ├─ _includes
 ├─ _layouts
-└─ css
+└─ stylesheets
 
 3 directories
 ```
@@ -342,7 +342,7 @@ A working environment will have one more directory: `site` (Jekyll).
 ├─ _includes
 ├─ _layouts
 ├─ _site
-└─ css
+└─ stylesheets
 
 4 directories
 ```
@@ -351,12 +351,12 @@ A working environment will have one more directory: `site` (Jekyll).
 
 Here's an overview of what each directory does or contains.
 
-| Directory    | Overview  |
-| ------------ | --------- |
-| `_includes`  | Semantic HTML elements and reusable content |
-| `_layouts`   | Reusable templates for specific uses |
-| `_site`      | Where Jekyll places generated sites after it's transformed |
-| `css`        | Static CSS stylesheets in `.css` format |
+| Directory     | Overview  |
+| ------------- | --------- |
+| `_includes`   | Semantic HTML elements and reusable content |
+| `_layouts`    | Reusable templates for specific uses |
+| `_site`       | Where Jekyll places generated sites after it's transformed |
+| `stylesheets` | Static CSS stylesheets in `.css` format |
 
 ---
 
@@ -437,10 +437,9 @@ Here's a helpful serving of groovy websites that you might find helpful.
 * <a href="http://prose.io" target="_blank">Prose.io</a>
 * <a href="http://twitter.github.io/recess/" target="_blank">Recess</a>
 * <a href="http://yizeng.me/2013/05/10/setup-jekyll-on-windows" target="_blank">Setup Jekyll on Windows</a>
-* <a href="http://www.spurapp.com" target="_blank">Spur</a>
 
 ---
 
 # License
 
-Our code and documentation is licensed under the {{site.github.license}} license</a>. By contributing your code, you agree to license your contribution under the terms of this license.
+Our code and documentation is licensed under the {{site.github.license}} license</a>.
