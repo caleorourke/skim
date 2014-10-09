@@ -26,7 +26,7 @@ All submissions should follow, but not strictly adhering to, the <a href="http:/
 
 ## Pull Requests
 
-I accept all types of pull requests, just as long as they stay within scope and don't break compatibility downstream. If you're unsure about what impact your request might have, send me a [New Feature request](#feature-request) first. This gives me a chance to vet it before you start working on something that I may decide not to merge.
+I accept all types of pull requests, just as long as they stay within scope and don't break compatibility downstream. If you're unsure about what impact your request might have, send me a [New Feature request](#feature-requests) first. This gives me a chance to vet it before you start working on something that I may decide not to merge.
 
 Create a pull request by following the instructions below.
 
