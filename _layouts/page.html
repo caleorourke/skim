@@ -5,15 +5,12 @@
   </head>
   <body id="page-top" data-spy="scroll">
     {% include hero.html %}
-
     <div class="container margin">
       <div class="col-md-1">
-
         {% if site.index.enabled == "Y" %}
         <div class="open">
           <a href="#open" title="Get help navigating this page"><i class="fa fa-list-ul"></i></a>
         </div>
-
         <div id="open" class="modal">
           <div>
             <a class="close" href="#close"><i class="fa fa-times"></i></a>
@@ -23,13 +20,11 @@
           </div>
         </div>
         {% endif %}
-
       </div>
       <div class="col-md-8 col-md-offset-1">
         {{content}}
       </div>
     </div>
-
     <a href="#page-top" id="top">
       <i class="fa fa-chevron-up"></i>
     </a>
