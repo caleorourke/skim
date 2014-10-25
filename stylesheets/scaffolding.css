@@ -21,22 +21,22 @@
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0;
-    font-style: normal;
-    text-shadow: none;
-    cursor: auto;
+  margin: 0;
+  font-style: normal;
+  text-shadow: none;
+  cursor: auto;
 }
 
 article,
@@ -47,74 +47,74 @@ main,
 nav,
 section,
 summary {
-    display: block;
+  display: block;
 }
 
 a {
-    text-decoration: none;
-    background: transparent;
+  text-decoration: none;
+  background: transparent;
 }
 
 a:hover,
 a:focus,
 a:active {
-    text-decoration: none;
-    outline: 0;
+  text-decoration: none;
+  outline: 0;
 }
 
 mark {
-    color: #222;
-    background-color: #cfc;
+  color: #222;
+  background-color: #cfc;
 }
 
 sup {
-    top: -.5em;
-    position: relative;
-    font-size: 70%;
-    line-height: 0;
-    vertical-align: baseline;
+  top: -.5em;
+  position: relative;
+  font-size: 70%;
+  line-height: 0;
+  vertical-align: baseline;
 }
 
 hr {
-    height: 0;
-    box-sizing: content-box;
-    border-width: 0;
+  height: 0;
+  box-sizing: content-box;
+  border-width: 0;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
 ul,
 ol {
-    line-height: inherit;
+  line-height: inherit;
 }
 
 pre {
-    overflow: auto;
+  overflow: auto;
 }
 
 b,
 strong {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 img {
-    border: 0;
+  border: 0;
 }
 
 td,
 th {
-    padding: 0;
+  padding: 0;
 }
 
 table {
-    border-spacing: 0;
-    border-collapse: collapse;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
 /* =========================
@@ -122,54 +122,43 @@ table {
    ========================= */
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #222;
-    background: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
-    margin: 0 0 12px;
-}
-
-u {
-    text-decoration: none;
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 75%,rgba(0,0,0,.9) 75%);
-    background-repeat: repeat-x;
-    background-position: 0 16px;
-    background-size: 2px 2px;
+  margin: 0 0 12px;
 }
 
 hr {
-    width: 10.5em;
-    margin: 2.5em auto 2.5em;
-    clear: both;
-    border-top: 1px solid #ddd;
+  width: 6.5em;
+  margin: 2.5em auto 2.5em;
+  clear: both;
+  border-top: 1px solid #ddd;
 }
 
 a {
-    color: #222;
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 75%,rgba(0,0,0,.9) 75%);
-    background-repeat: repeat-x;
-    background-position: 0 16px;
-    background-size: 2px 2px;
-    -webkit-transition-duration: .3s;
-            transition-duration: .3s;
+  color: #3498db;
+  -webkit-transition-duration: .4s;
+          transition-duration: .4s;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #555;
+  color: #3498db;
+  text-decoration: underline;
 }
 
 ul,
 ol {
-    margin-top: 0;
-    margin-bottom: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 ul ul,
@@ -178,7 +167,7 @@ ul ol,
 ol ol,
 ul li > p,
 ol li > p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* =========================
@@ -186,36 +175,36 @@ ol li > p {
    ========================= */
 
 h1 {
-    margin: 0;
+  margin: 0;
 }
 
 h2,
 h3,
 h4 {
-    margin: 1.3em 0 .3em;
-    line-height: 1.2;
+  margin: 1.3em 0 .3em;
+  line-height: 1.2;
 }
 
 
 h1 {
-    font-size: 2em;
-    font-weight: 400;
+  font-size: 2em;
+  font-weight: 400;
 }
 
 h2 {
-    font-size: 1.625em;
-    font-weight: 400;
+  font-size: 1.625em;
+  font-weight: 400;
 }
 
 h3 {
-    font-size: 1.375em;
-    font-weight: 400;
-    letter-spacing: -.01em;
+  font-size: 1.375em;
+  font-weight: 400;
+  letter-spacing: -.01em;
 }
 
 h4 {
-    font-size: 1.063em;
-    font-weight: 700;
+  font-size: 1.063em;
+  font-weight: 700;
 }
 
 /* =========================
@@ -223,31 +212,31 @@ h4 {
    ========================= */
 
 .hidden {
-    display: none !important;
-    visibility: hidden !important;
+  display: none !important;
+  visibility: hidden !important;
 }
 
 .visible {
-    display: initial !important;
-    visibility: visible !important;
+  display: initial !important;
+  visibility: visible !important;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .pull-right {
-    float: right !important;
+  float: right !important;
 }
 
 .pull-left {
-    float: left !important;
+  float: left !important;
 }
