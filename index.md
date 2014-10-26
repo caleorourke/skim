@@ -17,8 +17,6 @@ Browse the sections below and see just how simple it is to roll your own GitHub 
 * Responsive and mobile-friendly design
 * Fast load times
 * Centralized setup from a single configuration file
-* Google Analytics
-* WDM gem for supporting modern Windows OSes
 * Pretty URLs
 * API calls to fetch data from your GitHub repo
 * Built-in table of contents that updates automatically
@@ -206,11 +204,9 @@ keywords:       "boilerplate,css,framework,github,github pages,html5,jekyll,liqu
 # Options
 # ==============================
 
-analytics:
-    enabled:    N
 index:
     enabled:    Y
-top:
+scrolling:
     enabled:    Y
 version:
     enabled:    N
@@ -220,29 +216,11 @@ Below is a brief overview of each option.
 
 | Option     | Default | Description   |
 | ---------- |:-------:| ------------- |
-| Analytics  | N       | Google service that generates detailed statistics about your site's traffic |
 | Index      | Y       | Captures all H1 headers and drops them into a modal |
-| Top        | Y       | Turns on the "Back to Top" |
+| Scrolling  | Y       | Enables smooth scrolling animation |
 | Version    | N       | Fetches the last pegged release from GitHub and shows it under "Get Started" |
 
 *For these options, use Y or N. Anything else will disable the option.*
-
-## Google Analytics
-
-1. Go to [Google Analytics](http://www.google.com/analytics).
-2. Create a free account.
-3. Setup properties for things we want to track, such as demographics, bounce rates, and session count.
-4. Request a UA number for your site.
-5. Add your UA number to the `id`.
-
-~~~yaml
-# ==============================
-# Google Analytics
-# ==============================
-
-google:
-    id:         UA-12345678-9
-~~~
 
 ---
 
