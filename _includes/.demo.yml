@@ -35,21 +35,12 @@ keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github 
 # Options
 # ==============================
 
-analytics:
-    enabled:    Y
 index:
     enabled:    Y
-top:
+scrolling:
     enabled:    Y
 version:
     enabled:    Y
-
-# ==============================
-# Google Analytics
-# ==============================
-
-google:
-    id:         UA-40037365-5
 
 # ==============================
 # Markdown
