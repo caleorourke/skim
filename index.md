@@ -54,9 +54,9 @@ Here's a comparison of each browser on different OS platforms.
 
 | Platform    | Chrome | Firefox | Internet Explorer  | Opera | Safari |
 | ----------- |:------:|:-------:|:------------------:|:-----:|:------:|
-| Android     | Yes    | No      | --                 | No    | --     |
-| iOS         | Yes    | --      | --                 | No    | Yes    |
-| Mac OS X    | Yes    | Yes     | --                 | Yes   | Yes    |
+| Android     | Yes    | No      | ---                | No    | ---    |
+| iOS         | Yes    | ---     | ---                | No    | Yes    |
+| Mac OS X    | Yes    | Yes     | ---                | Yes   | Yes    |
 | Windows     | Yes    | Yes     | Yes                | Yes   | No     |
 
 > Apple no longer provides updates for Windows-native Safari browsers. Due to major lapses in critical updates, we do not recommend using Safari on Windows.
@@ -348,11 +348,11 @@ We harness several metadata tags using GitHub's [metadata](http://help.github.co
 
 Below is a list of metadata tags we use.
 
-* {%raw%}{{ site.github.owner_name }}{%endraw%}
-* {%raw%}{{ site.github.owner_url }}{%endraw%}
-* {%raw%}{{ site.github.project_title }}{%endraw%}
-* {%raw%}{{ site.github.repository_url }}{%endraw%}
-* {%raw%}{{ site.github.url }}{%endraw%}
+* {%raw%}site.github.owner_name{%endraw%}
+* {%raw%}site.github.owner_url{%endraw%}
+* {%raw%}site.github.project_title{%endraw%}
+* {%raw%}site.github.repository_url{%endraw%}
+* {%raw%}site.github.url{%endraw%}
 
 ## Code Styles
 
@@ -371,12 +371,12 @@ Sublime Text users can configure these settings manually by opening "Preferences
 
 ```json
 {
-    "translate_tabs_to_spaces": true,
-    "tab_size": 4,
-    "ensure_newline_at_eof_on_save": false,
-    "default_encoding": "UTF-8",
-    "default_line_ending": "lf",
-    "trim_trailing_white_space_on_save": true
+  "translate_tabs_to_spaces": true,
+  "tab_size": 4,
+  "ensure_newline_at_eof_on_save": false,
+  "default_encoding": "UTF-8",
+  "default_line_ending": "lf",
+  "trim_trailing_white_space_on_save": true
 }
 ```
 
