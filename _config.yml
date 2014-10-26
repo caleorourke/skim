@@ -16,22 +16,20 @@
 # ==============================
 
 github:
-    title:      Your Website
-    tagline:    Something to Describe Your Website
-    owner:      Whoever Owns This
-    license:    Your License
-keywords:       "separate,keywords,with,commas"
+    title:      Ferris
+    tagline:    A one-page boilerplate for publishing content on GitHub
+    owner:      "Bueller Company, LLC"
+    license:    MIT
 
 # ==============================
 # Social
 # ==============================
 
-website:        http://www.yourcompany.com
 twitter:
-    handle:     Your Twitter Name
-    hashtags:   "separate,hashtags,with,commas"
-    text:       "Check out our project documentation on GitHub."
-
+    handle:     BuellerLabs
+    hashtags:   "css,boilerplate,github-pages"
+    text:       "Try Ferris, a one-page boilerplate for publishing content on GitHub."
+keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github pages,html5,jekyll,jquery,liquid,markdown,michael o'rourke,normalize,one-page,pygments,python,redcarpet,ruby,technical content"
 
 # ==============================
 # Options
@@ -42,7 +40,7 @@ index:
 scrolling:
     enabled:    Y
 version:
-    enabled:    N
+    enabled:    Y
 
 # ==============================
 # Markdown
