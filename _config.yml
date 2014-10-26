@@ -37,21 +37,12 @@ twitter:
 # Options
 # ==============================
 
-analytics:
-    enabled:    N
 index:
     enabled:    Y
-top:
+scrolling:
     enabled:    Y
 version:
     enabled:    N
-
-# ==============================
-# Google Analytics
-# ==============================
-
-google:
-    id:         UA-X
 
 # ==============================
 # Markdown
