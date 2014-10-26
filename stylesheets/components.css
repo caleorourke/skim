@@ -352,6 +352,7 @@ table > thead > tr td {
 
 table > tbody {
   overflow-x: auto;
+  vertical-align: top;
 }
 
 table > tbody > tr > th,
