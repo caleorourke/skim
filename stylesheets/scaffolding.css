@@ -143,7 +143,7 @@ hr {
 }
 
 a {
-  color: #3a99d8;
+  color: #4073bd;
   -webkit-transition-duration: .4s;
           transition-duration: .4s;
 }
@@ -151,7 +151,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #3a99d8;
+  color: #4073bd;
   text-decoration: underline;
 }
 
