@@ -2,7 +2,7 @@
 
 Ferris is open source. It's hosted, developed, and maintained only on GitHub.
 
-My dev workflow follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages <a href="http://github.com/caleorourke/ferris/issues" target="_blank">issues</a> and <a href="http://github.com/caleorourke/ferris/pulls" target="_blank">pull requests</a> for source control, bug fixes, and new features. Anyone is welcome to submit a request, but I ask that you follow a few simple guidelines in regards to:
+Ferris follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages <a href="http://github.com/caleorourke/ferris/issues" target="_blank">issues</a> and <a href="http://github.com/caleorourke/ferris/pulls" target="_blank">pull requests</a> for source control, bug fixes, and new features. Anyone is welcome to submit a request, but I ask that you follow a few simple guidelines in regards to:
 
 * [Code Standards](#code-standards)
 * [Pull Requests](#pull-requests)
@@ -44,9 +44,9 @@ When submitting a new request, please provide as much context as possible to jus
 
 Got issues? Here are some suggestions to help guide you through escalating it to me.
 
-#### Search issues already on GitHub
+#### Search issues already in GitHub
 
-All issues are bagged and tagged on GitHub. Click <a href="http://github.com/caleorourke/ferris/issues" target="_blank">Search</a> and make sure your issue hasn't already been reported.
+All issues are bagged and tagged in GitHub. Click <a href="http://github.com/caleorourke/ferris/issues" target="_blank">Search</a> and make sure your issue hasn't already been reported.
 
 #### Provide information about your setup
 
@@ -56,7 +56,7 @@ This includes versions, when was it installed, what you're trying to do, and so 
 
 Help me understand how serious the issue is and what priority I need to triage it in.
 
-#### Share code pastes on Gist
+#### Share code pastes in Gist
 
 Paste any code, logs, or errors into a page on <a href="http://gist.github.com" target="_blank">Gist</a> and drop the link to it in the report.
 
@@ -81,6 +81,6 @@ Steps to Reproduce
 Include any other comments, such as how you worked around it, suggestions you have for fixing it, and so on.
 ~~~
 
-#### Submit the issue on GitHub
+#### Submit the issue in GitHub
 
 When you're ready, <a href="http://github.com/caleorourke/ferris/issues/new" target="_blank">open a new issue</a> and send it over to me.
