@@ -1,8 +1,8 @@
 # Contributing Guidelines
 
-Like many of my projects, Ferris is open source. It's hosted, developed, and maintained only on GitHub.
+Ferris is open source. It's hosted, developed, and maintained only on GitHub.
 
-My dev workflow follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages <a href="http://github.com/caleorourke/ferris/issues" target="_blank">issues</a> and <a href="http://github.com/caleorourke/ferris/pulls" target="_blank">pull requests</a> for source control, bug fixes, and new feature development. Anyone is welcome to submit a request, but I ask that you follow a few simple guidelines in regards to:
+My dev workflow follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages <a href="http://github.com/caleorourke/ferris/issues" target="_blank">issues</a> and <a href="http://github.com/caleorourke/ferris/pulls" target="_blank">pull requests</a> for source control, bug fixes, and new features. Anyone is welcome to submit a request, but I ask that you follow a few simple guidelines in regards to:
 
 * [Code Standards](#code-standards)
 * [Pull Requests](#pull-requests)
@@ -11,7 +11,7 @@ My dev workflow follows the <a href="http://help.github.com/articles/using-pull-
 
 ## Code Standards
 
-All submissions should follow, but not strictly adhering to, the <a href="http://codeguide.co" target="_blank">Code Guide by @mdo</a>. Also, as a suggestion, you can configure these settings in your editor to follow our code style.
+All submissions should follow, but not strictly adhering to, the <a href="http://codeguide.co" target="_blank">Code Guide by @mdo</a>. Also, as a suggestion, you can configure these settings in your editor to follow this coding style.
 
 ~~~
 "translate_tabs_to_spaces": true,
@@ -22,7 +22,7 @@ All submissions should follow, but not strictly adhering to, the <a href="http:/
 "trim_trailing_white_space_on_save": true
 ~~~
 
-> Names and formatting will vary across different editors.
+> Names and formatting vary across different editors.
 
 ## Pull Requests
 
@@ -44,23 +44,23 @@ When submitting a new request, please provide as much context as possible to jus
 
 Got issues? Here are some suggestions to help guide you through escalating it to me.
 
-#### Screen Our Issues on GitHub
+#### Search issues already on GitHub
 
 All issues are bagged and tagged on GitHub. Click <a href="http://github.com/caleorourke/ferris/issues" target="_blank">Search</a> and make sure your issue hasn't already been reported.
 
-#### Provide Information about Your Setup
+#### Provide information about your setup
 
 This includes versions, when was it installed, what you're trying to do, and so on.
 
-#### Gauge Its Severity, Impact, and Frequency
+#### Gauge its severity, impact, and occurrences
 
 Help me understand how serious the issue is and what priority I need to triage it in.
 
-#### Share Code Pastes on Gist
+#### Share code pastes on Gist
 
 Paste any code, logs, or errors into a page on <a href="http://gist.github.com" target="_blank">Gist</a> and drop the link to it in the report.
 
-#### Use Our Template to Write-up the Report
+#### Use this template to write-up your report
 
 A good report should not require anyone to pine for more information. That's why I suggest using this template. It's sufficient for the majority of reports, albeit some issues may require me to ask for more details.
 
@@ -81,6 +81,6 @@ Steps to Reproduce
 Include any other comments, such as how you worked around it, suggestions you have for fixing it, and so on.
 ~~~
 
-#### Submit the Issue on GitHub
+#### Submit the issue on GitHub
 
 When you're ready, <a href="http://github.com/caleorourke/ferris/issues/new" target="_blank">open a new issue</a> and send it over to me.
