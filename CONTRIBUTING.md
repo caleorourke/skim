@@ -1,8 +1,8 @@
 # Contributing Guidelines
 
-Ferris is open source. It's hosted, developed, and maintained only on GitHub.
+Skim is open source. It's hosted, developed, and maintained only on GitHub.
 
-Ferris follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages <a href="http://github.com/caleorourke/ferris/issues" target="_blank">issues</a> and <a href="http://github.com/caleorourke/ferris/pulls" target="_blank">pull requests</a> for source control, bug fixes, and new features. Anyone is welcome to submit a request, but I ask that you follow a few simple guidelines in regards to:
+Skim follows the <a href="http://help.github.com/articles/using-pull-requests" target="_blank">fork-pull model</a> and leverages <a href="http://github.com/caleorourke/skim/issues" target="_blank">issues</a> and <a href="http://github.com/caleorourke/skim/pulls" target="_blank">pull requests</a> for source control, bug fixes, and new features. Anyone is welcome to submit a request, but I ask that you follow a few simple guidelines in regards to:
 
 * [Code Standards](#code-standards)
 * [Pull Requests](#pull-requests)
@@ -30,7 +30,7 @@ I accept all types of pull requests, just as long as they stay within scope and 
 
 Create a pull request by following the instructions below.
 
-1. Fork Ferris from GitHub: `http://github.com/caleorourke/ferris/fork`
+1. Fork Skim from GitHub: `http://github.com/caleorourke/skim/fork`
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am "add some sweet features"`
 4. Push to the branch: `git push origin my-new-feature`
@@ -38,7 +38,7 @@ Create a pull request by following the instructions below.
 
 ## Feature Requests
 
-When submitting a new request, please provide as much context as possible to justify how it fits in with the scope and longevity. Click <a href="http://github.com/caleorourke/ferris/issues" target="_blank">Search</a> to browse current requests or <a href="http://github.com/caleorourke/ferris/issues/new" target="_blank">Request</a> to submit a new one.
+When submitting a new request, please provide as much context as possible to justify how it fits in with Skim's scope. Click <a href="http://github.com/caleorourke/skim/issues" target="_blank">Search</a> to browse current requests or <a href="http://github.com/caleorourke/skim/issues/new" target="_blank">Request</a> to submit a new one.
 
 ## Issue Reporting
 
@@ -46,7 +46,7 @@ Got issues? Here are some suggestions to help guide you through escalating it to
 
 #### Search issues already in GitHub
 
-All issues are bagged and tagged in GitHub. Click <a href="http://github.com/caleorourke/ferris/issues" target="_blank">Search</a> and make sure your issue hasn't already been reported.
+All issues are bagged and tagged in GitHub. Click <a href="http://github.com/caleorourke/skim/issues" target="_blank">Search</a> and make sure your issue hasn't already been reported.
 
 #### Provide information about your setup
 
@@ -83,4 +83,4 @@ Include any other comments, such as how you worked around it, suggestions you ha
 
 #### Submit the issue in GitHub
 
-When you're ready, <a href="http://github.com/caleorourke/ferris/issues/new" target="_blank">open a new issue</a> and send it over to me.
+When you're ready, <a href="http://github.com/caleorourke/skim/issues/new" target="_blank">open a new issue</a> and send it over to me.

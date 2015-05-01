@@ -16,9 +16,9 @@
 # ==============================
 
 github:
-    title:      Ferris
+    title:      Skim
     tagline:    A one-page boilerplate for publishing content on GitHub
-    owner:      "Bueller Company, LLC"
+    owner:      "Mielke Labs, LLC"
     license:    MIT
 
 # ==============================
@@ -26,10 +26,10 @@ github:
 # ==============================
 
 twitter:
-    handle:     BuellerLabs
+    handle:     mielkelabs
     hashtags:   "css,boilerplate,github-pages"
-    text:       "Try Ferris, a one-page boilerplate for publishing content on GitHub."
-keywords:       "boilerplate,caleorourke,css3,ferris,font awesome,github,github pages,html5,jekyll,jquery,liquid,markdown,michael o'rourke,normalize,one-page,pygments,python,redcarpet,ruby,technical content"
+    text:       "Try Skim, a one-page boilerplate for publishing content on GitHub."
+keywords:       "boilerplate,caleorourke,css3,font awesome,github,github pages,html5,jekyll,jquery,liquid,markdown,normalize,one-page,pygments,python,redcarpet,ruby,skim,technical content"
 
 # ==============================
 # Options
