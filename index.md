@@ -167,9 +167,9 @@ The `_config.yml` is a [YAML](http://en.m.wikipedia.org/wiki/YAML) file for stor
 # ==============================
 
 github:
-    title:      Ferris
+    title:      Skim
     tagline:    A one-page boilerplate for publishing content on GitHub
-    owner:      "Bueller Company, LLC"
+    owner:      "Mielke Labs, LLC"
     license:    MIT
 ~~~
 
@@ -186,9 +186,9 @@ github:
 # ==============================
 
 twitter:
-    handle:     BuellerLabs
+    handle:     MielkeLabs
     hashtags:   "css,boilerplate,github-pages"
-    text:       "Try Ferris, a one-page boilerplate for posting technical content on GitHub."
+    text:       "Try Skim, a one-page boilerplate for posting technical content on GitHub."
 keywords:       "boilerplate,css,framework,github,github pages,html5,jekyll,liquid,markdown,one-page,redcarpet"
 ~~~
 
@@ -258,10 +258,10 @@ Hosting on GitHub works by storing content in a branch called `gh-pages`. This m
 
 ### Roll Your Own
 
-Start by creating a new orphan branch (e.g. a branch that has no common history with an existing branch) in your repository. The safest way to do this is to make a fresh clone. In this example, we're going to create one called `bueller`.
+Start by creating a new orphan branch (e.g. a branch that has no common history with an existing branch) in your repository. The safest way to do this is to make a fresh clone. In this example, we're going to create one called `milk`.
 
 ```bash
-$ git clone https://github.com/username/bueller.git
+$ git clone https://github.com/username/milk.git
 ```
 
 > The example above has `username` as a placeholder. This is where you want to type your actual GitHub username.
@@ -269,15 +269,15 @@ $ git clone https://github.com/username/bueller.git
 Once you have a fresh clone, you'll need to create the new `gh-pages` branch and remove any content from the working directory.
 
 ```bash
-$ cd bueller
+$ cd milk
 $ git checkout --orphan gh-pages
 $ git rm -rf .
 ```
 
-Next, copy all the content from `/{{site.github.project_title}}` to your `/bueller` directory.
+Next, copy all the content from `/{{site.github.project_title}}` to your `/milk` directory.
 
 ```bash
-$ cp -r ~/{{site.github.project_title}}/* ~/bueller
+$ cp -r ~/{{site.github.project_title}}/* ~/milk
 ```
 
 Now that you have content in your own directory, you can push it to GitHub.
@@ -288,7 +288,7 @@ $ git commit -a -m "first commit"
 $ git push origin gh-pages
 ```
 
-After you push to `gh-pages`, your site will be available at `username.github.io/bueller`.
+After you push to `gh-pages`, your site will be available at `username.github.io/milk`.
 
 > It can take up to ten minutes before your site is available, but in most cases, it's ready instantly.
 
