@@ -1,7 +1,7 @@
 /*
  * Scaffolding
  *
- * Copyright © Michael O'Rourke (@caleorourke)
+ * Copyright © Michael O'Rourke
  * Code and documentation licensed under MIT
  *
  */
@@ -67,8 +67,8 @@ mark {
 }
 
 sup {
-  top: -.5em;
   position: relative;
+  top: -.5em;
   font-size: 70%;
   line-height: 0;
   vertical-align: baseline;
@@ -121,12 +121,13 @@ table {
    ========================= */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #111;
-  background: #fff;
   -webkit-text-size-adjust: 100%;
+  background: #fff;
+
   -webkit-font-smoothing: antialiased;
 }
 

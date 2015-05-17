@@ -1,7 +1,7 @@
 /*
  * Components
  *
- * Copyright © Michael O'Rourke (@caleorourke)
+ * Copyright © Michael O'Rourke
  * Code and documentation licensed under MIT
  *
  */
@@ -482,9 +482,9 @@ img {
     position: absolute;
     top: 27px;
     display: inline-block;
-    color: #fff;
     font-size: 18px;
     line-height: 1.6;
+    color: #fff;
     letter-spacing: -.01em;
   }
 }
