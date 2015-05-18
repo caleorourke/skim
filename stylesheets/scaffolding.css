@@ -1,7 +1,7 @@
 /*
  * Scaffolding
  *
- * Copyright © Michael O'Rourke (@caleorourke)
+ * Copyright © Michael O'Rourke
  * Code and documentation licensed under MIT
  *
  */
@@ -12,7 +12,6 @@
  * 2. Base
  * 3. Headers
  * 4. Utilities  */
-
 
 /* =========================
    Normalize
@@ -63,13 +62,13 @@ a:active {
 }
 
 mark {
-  color: #111;
+  color: #333;
   background-color: #cfc;
 }
 
 sup {
-  top: -.5em;
   position: relative;
+  top: -.5em;
   font-size: 70%;
   line-height: 0;
   vertical-align: baseline;
@@ -122,12 +121,12 @@ table {
    ========================= */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  color: #111;
-  background: #fff;
+  line-height: 1.428571429;
+  color: #333;
   -webkit-text-size-adjust: 100%;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -143,7 +142,7 @@ hr {
 }
 
 a {
-  color: #4073bd;
+  color: #4178be;
   -webkit-transition-duration: .4s;
           transition-duration: .4s;
 }
@@ -151,7 +150,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #4073bd;
+  color: #4178be;
   text-decoration: underline;
 }
 

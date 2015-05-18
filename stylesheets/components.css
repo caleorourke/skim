@@ -1,7 +1,7 @@
 /*
  * Components
  *
- * Copyright © Michael O'Rourke (@caleorourke)
+ * Copyright © Michael O'Rourke
  * Code and documentation licensed under MIT
  *
  */
@@ -15,7 +15,6 @@
  * 5. Icons
  * 6. Branding  */
 
-
 /* =========================
    Code
    ========================= */
@@ -28,11 +27,11 @@ pre {
 
 code {
   padding: .15em .4em;
-  color: #111;
+  color: #333;
   white-space: nowrap;
-  background-color: #fafafa;
-  border: 1px solid #f0f0f0;
-  border-radius: 3px;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-radius: 4px;
 }
 
 pre {
@@ -40,7 +39,7 @@ pre {
   padding: 1em;
   margin: 0 0 24px;
   line-height: 1.4;
-  color: #111;
+  color: #333;
   word-break: break-all;
   word-wrap: normal;
   background-color: #fafafa;
@@ -204,7 +203,7 @@ pre code {
 }
 
 .highlight .nb {
-  color: #111;
+  color: #333;
 }
 
 .highlight .nc {
@@ -240,7 +239,7 @@ pre code {
 }
 
 .highlight .nt {
-  color: #111;
+  color: #333;
 }
 
 .highlight .nv {
@@ -249,11 +248,11 @@ pre code {
 
 .highlight .o {
   font-weight: 700;
-  color: #111;
+  color: #333;
 }
 
 .highlight .ow {
-  color: #111;
+  color: #333;
 }
 
 .highlight .s {
@@ -335,7 +334,7 @@ table {
 }
 
 table > thead {
-  color: #111;
+  color: #333;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
 }
@@ -419,7 +418,7 @@ blockquote a {
 blockquote a:active,
 blockquote a:focus,
 blockquote a:hover {
-  color: #111;
+  color: #333;
 }
 
 /* =========================
@@ -483,9 +482,9 @@ img {
     position: absolute;
     top: 27px;
     display: inline-block;
-    color: #fff;
     font-size: 18px;
     line-height: 1.6;
+    color: #fff;
     letter-spacing: -.01em;
   }
 }

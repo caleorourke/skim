@@ -71,7 +71,7 @@ Support is limited to whatever legacy browsers can handle. You can try using [Mo
 
 {{site.github.title}} requires the minimum version of __Ruby__ below. It also requires __Python__ to run __Pygments__, but only if you’re planning to use code highlights. Otherwise, you won't need it.
 
-* Ruby 1.9.3
+* Ruby 2.0.0
 * Python 2.7
 * Pygments 1.6
 
